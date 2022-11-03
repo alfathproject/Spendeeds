@@ -10,7 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/alfathproject/SN-SchoolFinder.git"
   },
-  "author": "@icalbalino",
+  "author": {
+    "@icalbalino",
+    "@fatha_dillah",
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/alfathproject/SN-SchoolFinder/issues"
