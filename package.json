@@ -1,0 +1,19 @@
+{
+  "name": "sn-schoolfinder",
+  "version": "1.0.0",
+  "description": "Aplikasi rekomendasi sekolah bagi siswa berkebutuhan khusus",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfathproject/SN-SchoolFinder.git"
+  },
+  "author": "@icalbalino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alfathproject/SN-SchoolFinder/issues"
+  },
+  "homepage": "https://github.com/alfathproject/SN-SchoolFinder#readme"
+}
