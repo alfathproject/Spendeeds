@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/alfathproject/SN-SchoolFinder/issues"
   },
-  "homepage": "https://github.com/alfathproject/SN-SchoolFinder#readme"
+  "homepage": "https://github.com/alfathproject/SN-SchoolFinder#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
 }

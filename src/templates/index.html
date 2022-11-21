@@ -1,12 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <script src="../scripts/views/components/hero-image.js"></script>
+    <script src="../scripts/views/components/navbars/nav-bar.js"></script>
+    <script src="../scripts/views/components/navbars/search-bar.js"></script>
+
+    <title>sn-schoolfinder</title>
 </head>
+
 <body>
-    
+    <header>
+        <nav class="navbar navbar-dark navbar-expand-lg p-3">
+            <div class="container-fluid d-flex flex-wrap p-3">
+                <nav-bar></nav-bar>
+                <search-bar></search-bar>
+            </div>
+        </nav>
+        <hero-image></hero-image>
+    </header>
+
+    <main></main>
+    <footer></footer>
 </body>
+
 </html>
