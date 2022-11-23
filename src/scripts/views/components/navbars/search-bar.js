@@ -14,15 +14,9 @@ class SearchBar extends HTMLElement {
 
     render() {
         this.innerHTML = `
-            <style>
-                input {
-                    background-color: #c9d1d9 !important;
-                }
-            </style>
-
             <form class="d-flex" role="search">
                 <input id="searchElement" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-info" type="submit">Search</button>
+                <button class="btn text-light" type="submit" style="background-color: #0ea5e9"><i class="bi bi-search"></i></button>
             </form>
         `;
 

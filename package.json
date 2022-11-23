@@ -21,6 +21,7 @@
   "homepage": "https://github.com/alfathproject/SN-SchoolFinder#readme",
   "dependencies": {
     "bootstrap": "^5.2.2",
+    "bootstrap-icons": "^1.10.2",
     "idb": "^7.1.0",
     "regenerator-runtime": "^0.13.10",
     "workbox-window": "^6.5.4"

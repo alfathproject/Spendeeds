@@ -13,10 +13,14 @@ body {
 }
 
 nav {
-    background-color: #0C4A6E;
+    background-image: linear-gradient(to right, #F57204, #F5AD20);
 }
 
 nav-bar>div>ul>li>a {
     font-size: 1.2em !important;
 }
 
+footer {
+    color: #c9d1d9;
+    background-image: linear-gradient(to right, #F57204, #F5AD20);
+}
