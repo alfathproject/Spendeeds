@@ -9,7 +9,7 @@ class HeroImage extends HTMLElement {
                 .con-img {
                     background-image: linear-gradient(rgba(0, 0, 0, 0.5), 
                     rgba(0, 0, 0, 0.5)), 
-                    url("https://picsum.photos/1400/500.webp");
+                    url("./images/needs.jpg");
                     background-repeat: no-repeat;
                     background-size: cover;
                     background-position: center;
@@ -19,6 +19,7 @@ class HeroImage extends HTMLElement {
             </style>
 
             <div class="con-img mw-100 p-5 d-flex justify-content-center align-items-center">
+
                 <div class="text-center w-75 p-5">
                     <h1 class="fw-bold">School Needs - School Finder</h1>
                     <hr>
