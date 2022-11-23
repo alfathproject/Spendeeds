@@ -7,7 +7,7 @@ class NavBar extends HTMLElement {
         this.innerHTML = `
             <div class="navbar-collapse" id="navbarNavAltMarkup">
                 <a class="navbar-brand" href="">
-                    <img src="../public/images/inclusive.png" alt="Logo App bar" width="50" height="50">
+                    <img src="./images/inclusive.png" alt="Logo App bar" width="50" height="50">
                     SN-SchoolFinder
                 </a>
                 <ul class="navbar-nav me-3 mb-3 mb-lg-0">
