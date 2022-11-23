@@ -1,2 +1,1 @@
 # SN-SchoolFinder
-hallo ical
