@@ -1,1 +1,1 @@
-# SN-SchoolFinder
+# SPENDEEDS-APP
