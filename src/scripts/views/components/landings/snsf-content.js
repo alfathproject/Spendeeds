@@ -1,12 +1,12 @@
-class AboutSection extends HTMLElement {
-  connectedCallback() {
-    this.render();
-  }
+class LandingContent extends HTMLElement {
+    connectedCallback() {
+        this.render();
+    }
 
-  render() {
-    this.innerHTML = `
-      <div class="mw-100 p-5 d-flex justify-content-center align-items-center text-dark">
-          <div class="text-center w-75 p-5">
+    render() {
+        this.innerHTML = `
+      <div class="mw-100 p-3 d-flex justify-content-center align-items-center text-dark">
+          <div class="text-center w-75 p-3">
               <h1 class="fw-bold">Why School Is Important?</h1>
               <small class="text-muted">Especially for people who have a special needs</small>
               <hr>
@@ -30,8 +30,8 @@ class AboutSection extends HTMLElement {
               <hr>
           </div>
       </div>
-      <div class="mw-100 p-5 d-flex justify-content-center align-items-center text-dark">
-          <div class="text-center w-75 p-5">
+      <div class="mw-100 p-3 d-flex justify-content-center align-items-center text-dark">
+          <div class="text-center w-75 p-3">
               <h1 class="fw-bold">What is SN-SchoolFinder?</h1>
               <small class="text-muted">Especially for people who have a special needs</small>
               <hr>
@@ -56,7 +56,7 @@ class AboutSection extends HTMLElement {
           </div>
       </div>
       `;
-  }
+    }
 }
 
-customElements.define("about-section", AboutSection);
+customElements.define("landing-content", LandingContent);
