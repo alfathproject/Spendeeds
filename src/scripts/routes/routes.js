@@ -7,6 +7,8 @@ import Favorites from '../views/pages/favorites';
 import Feedbacks from '../views/pages/feedbacks';
 import About from '../views/pages/about';
 import Contact from '../views/pages/contact';
+import Popular from '../views/pages/popular';
+import Acreditated from '../views/pages/acreditated';
 
 const routes = {
   '/': Home, // default page
@@ -19,6 +21,8 @@ const routes = {
   '/feedbacks': Feedbacks,
   '/about': About,
   '/contact': Contact,
+  '/popular': Popular,
+  '/acreditated' : Acreditated,
 };
 
 export default routes;

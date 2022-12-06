@@ -12,14 +12,14 @@ class FootBar extends HTMLElement {
           </div>
           <div class="col-lg-6 col-md-6">
             <h4 class="text-white mb-3">Quick Link</h4>
-            <div class ="row g-5">
-              <div class="col-lg-6 col-md-6">
+            <div class ="row g-2">
+              <div class="col-lg-6">
                 <a class="btn btn-link" href="/#/"><i class="bi bi-chevron-right me-2" style="font-size: .7rem;"></i>Home</a>
                 <a class="btn btn-link" href="/#/schools"><i class="bi bi-chevron-right me-2" style="font-size: .7rem;"></i>List of Schools</a>
                 <a class="btn btn-link" href="/#/categories"><i class="bi bi-chevron-right me-2" style="font-size: .7rem;"></i>School Categories</a>
                 <a class="btn btn-link" href="/#/favorites"><i class="bi bi-chevron-right me-2" style="font-size: .7rem;"></i>Favorited Schools</a>
               </div>
-              <div class="col-lg-6 col-md-6">
+              <div class="col-lg-6">
                 <a class="btn btn-link" href="/#/feedbacks"><i class="bi bi-chevron-right me-2" style="font-size: .7rem;"></i>User Feedbacks</a>
                 <a class="btn btn-link" href="/#/about"><i class="bi bi-chevron-right me-2" style="font-size: .7rem;"></i>About</a>
                 <a class="btn btn-link" href="/#/contact"><i class="bi bi-chevron-right me-2" style="font-size: .7rem;"></i>Contact Us</a>
