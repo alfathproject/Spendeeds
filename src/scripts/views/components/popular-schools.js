@@ -1,12 +1,11 @@
 import './school-list';
 
-class PopularSchoolsSection extends HTMLElement {
+class PopularSchools extends HTMLElement {
   /**
    * @param {any} schools
    */
   set schools(schools) {
     this._schools = schools;
-    console.log(this._schools);
     this.render();
   }
 
@@ -18,9 +17,6 @@ class PopularSchoolsSection extends HTMLElement {
           <h1 class="mb-5">Popular Schools</h1>
         </div>
         <school-list id="popularSchoolsList" class="row g-4 justify-content-center"></school-list>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-3">
-          <a href="#/popular" class="btn btn-primary py-md-3 px-md-5">More<i class="bi bi-arrow-right ms-3"></i></a>
-        </div>
       </div>`;
 
     const schoolList = document.querySelector('#popularSchoolsList');
@@ -28,4 +24,4 @@ class PopularSchoolsSection extends HTMLElement {
   }
 }
 
-customElements.define('popular-schools-section', PopularSchoolsSection);
+customElements.define('popular-schools', PopularSchools);

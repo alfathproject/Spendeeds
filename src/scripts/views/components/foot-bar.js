@@ -10,15 +10,21 @@ class FootBar extends HTMLElement {
           <div class="col-lg-3 col-md-6 d-flex justify-content-center align-items-center">
             <img src="./img/Spendeeds-Light.png" alt="SPENDEEDS LOGO" class="w-75">
           </div>
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-6 col-md-6">
             <h4 class="text-white mb-3">Quick Link</h4>
-            <a class="btn btn-link" href="/#/"><i class="bi bi-chevron-right me-2" style="font-size: .7rem;"></i>Home</a>
-            <a class="btn btn-link" href="/#/schools"><i class="bi bi-chevron-right me-2" style="font-size: .7rem;"></i>List of Schools</a>
-            <a class="btn btn-link" href="/#/categories"><i class="bi bi-chevron-right me-2" style="font-size: .7rem;"></i>School Categories</a>
-            <a class="btn btn-link" href="/#/favorites"><i class="bi bi-chevron-right me-2" style="font-size: .7rem;"></i>Favorited Schools</a>
-            <a class="btn btn-link" href="/#/feedbacks"><i class="bi bi-chevron-right me-2" style="font-size: .7rem;"></i>User Feedbacks</a>
-            <a class="btn btn-link" href="/#/about"><i class="bi bi-chevron-right me-2" style="font-size: .7rem;"></i>About</a>
-            <a class="btn btn-link" href="/#/contact"><i class="bi bi-chevron-right me-2" style="font-size: .7rem;"></i>Contact Us</a>
+            <div class ="row g-2">
+              <div class="col-lg-6">
+                <a class="btn btn-link" href="/#/"><i class="bi bi-chevron-right me-2" style="font-size: .7rem;"></i>Home</a>
+                <a class="btn btn-link" href="/#/schools"><i class="bi bi-chevron-right me-2" style="font-size: .7rem;"></i>List of Schools</a>
+                <a class="btn btn-link" href="/#/categories"><i class="bi bi-chevron-right me-2" style="font-size: .7rem;"></i>School Categories</a>
+                <a class="btn btn-link" href="/#/favorites"><i class="bi bi-chevron-right me-2" style="font-size: .7rem;"></i>Favorited Schools</a>
+              </div>
+              <div class="col-lg-6">
+                <a class="btn btn-link" href="/#/feedbacks"><i class="bi bi-chevron-right me-2" style="font-size: .7rem;"></i>User Feedbacks</a>
+                <a class="btn btn-link" href="/#/about"><i class="bi bi-chevron-right me-2" style="font-size: .7rem;"></i>About</a>
+                <a class="btn btn-link" href="/#/contact"><i class="bi bi-chevron-right me-2" style="font-size: .7rem;"></i>Contact Us</a>
+              </div>
+            </div>
           </div>
           <div class="col-lg-3 col-md-6">
             <h4 class="text-white mb-3">Contact</h4>
@@ -30,14 +36,6 @@ class FootBar extends HTMLElement {
               <a class="btn btn-outline-light btn-social" href="#"><i class="bi bi-facebook"></i></a>
               <a class="btn btn-outline-light btn-social" href="#"><i class="bi bi-youtube"></i></a>
               <a class="btn btn-outline-light btn-social" href="#"><i class="bi bi-linkedin"></i></a>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <h4 class="text-white mb-3">Get in touch</h4>
-            <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-            <div class="position-relative mx-auto" style="max-width: 400px;">
-              <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-              <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
             </div>
           </div>
         </div>

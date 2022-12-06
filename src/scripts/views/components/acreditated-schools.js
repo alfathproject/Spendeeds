@@ -1,6 +1,6 @@
 import './school-list';
 
-class AcreditatedSchoolsSection extends HTMLElement {
+class AcreditatedSchools extends HTMLElement {
   /**
    * @param {any} schools
    */
@@ -17,9 +17,6 @@ class AcreditatedSchoolsSection extends HTMLElement {
           <h1 class="mb-5">Acreditated Schools</h1>
         </div>
         <school-list id="acreditatedSchoolsList" class="row g-4 justify-content-center"></school-list>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-3">
-          <a href="#/acreditated" class="btn btn-primary py-md-3 px-md-5">More<i class="bi bi-arrow-right ms-3"></i></a>
-        </div>
       </div>`;
 
     const schoolList = document.querySelector('#acreditatedSchoolsList');
@@ -27,4 +24,4 @@ class AcreditatedSchoolsSection extends HTMLElement {
   }
 }
 
-customElements.define('acreditated-schools-section', AcreditatedSchoolsSection);
+customElements.define('acreditated-schools', AcreditatedSchools);
