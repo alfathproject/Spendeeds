@@ -22,7 +22,7 @@ const routes = {
   '/about': About,
   '/contact': Contact,
   '/popular': Popular,
-  '/acreditated' : Acreditated,
+  '/acreditated': Acreditated,
 };
 
 export default routes;
