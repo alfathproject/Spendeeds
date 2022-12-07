@@ -20,6 +20,10 @@ class SchoolDbSource {
     return data.filter((school) => Number(school.npsn) === Number(npsn));
   }
 
+  static async categorized(category) {
+    return data.filter((school) => school.kecamatan.charAt(0).toLowerCase() === category);
+  }
+
   // static async list() {
   //   const response = await fetch(API_ENDPOINT.LIST);
   //   const responseJson = await response.json();

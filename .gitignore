@@ -1,3 +1,5 @@
 node_modules
 package-lock.json
-dist
+.hintrc
+note.txt
+data copy.json
