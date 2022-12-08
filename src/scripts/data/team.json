@@ -1,0 +1,42 @@
+[
+    {
+        "name" : "Farhan Abdillah Alfath",
+        "photo" : "team-1.jpg",
+        "job" : "programmer",
+        "sosmed" : {
+            "facebook" : "farhan.alfath.07",
+            "twitter" : "",
+            "instagram" : "fatha_dillah"
+        }
+    },
+    {
+        "name" : " Ical Ferin Balino",
+        "photo" : "team-2.jpg",
+        "job" : "programmer",
+        "sosmed" : {
+            "facebook" : "",
+            "twitter" : "",
+            "instagram" : ""
+        }
+    },
+    {
+        "name" : "Mutiara Kurnia Sari",
+        "photo" : "team-3.jpg",
+        "job" : "programmer",
+        "sosmed" : {
+            "facebook" : "",
+            "twitter" : "",
+            "instagram" : ""
+        }
+    },
+    {
+        "name" : "Rangga Manggala Y",
+        "photo" : "team-4.jpg",
+        "job" : "programmer",
+        "sosmed" : {
+            "facebook" : "",
+            "twitter" : "",
+            "instagram" : ""
+        }
+    }
+]
