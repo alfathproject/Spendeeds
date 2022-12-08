@@ -13,12 +13,7 @@ class TeamSection extends HTMLElement {
           <h6 class="section-title bg-white text-center text-primary px-3">Team</h6>
           <h1 class="mb-5">Our Team</h1>
         </div>
-        <div class="row g-4" id="team-list">
-          <team-item class="col-lg-3 col-md-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.1s"></team-item>
-          <team-item class="col-lg-3 col-md-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.3s"></team-item>
-          <team-item class="col-lg-3 col-md-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.5s"></team-item>
-          <team-item class="col-lg-3 col-md-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.7s"></team-item>
-        </div>
+        <div class="row g-4" id="team-list"></div>
       </div>`;
 
     this.afterRender();
