@@ -1,0 +1,722 @@
+[
+  {
+    "id_review": 1,
+    "npsn": 2010247,
+    "gambar": "../../public/categoryimg/cat-5.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["ical", "aldi"],
+    "review": ["bagus sekolahnya", "bersih, lingkungannya sehat"]
+  },
+  {
+    "id_review": 2,
+    "npsn": 20102422,
+    "gambar": "../../public/categoryimg/cat-6.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["ical", "aldi"],
+    "review": ["bagus sekolahnya", "bersih, lingkungannya sehat"]
+  },
+  {
+    "id_review": 3,
+    "npsn": 20102737,
+    "gambar": "../../public/categoryimg/cat-7.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["ical", "aldi"],
+    "review": ["bagus sekolahnya", "bersih, lingkungannya sehat"]
+  },
+  {
+    "id_review": 4,
+    "npsn": 20103040,
+    "gambar": "../../public/categoryimg/cat-8.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["ical", "aldi"],
+    "review": ["bagus sekolahnya", "bersih, lingkungannya sehat"]
+  },
+  {
+    "id_review": 5,
+    "npsn": 20103041,
+    "gambar": "../../public/categoryimg/cat-9.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["ical", "aldi"],
+    "review": ["bagus sekolahnya", "bersih, lingkungannya sehat"]
+  },
+  {
+    "id_review": 6,
+    "npsn": 20103053,
+    "gambar": "../../public/categoryimg/cat-10.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["nina", "yos"],
+    "review": ["adem, gurunya baik", "sekolahnya mantap"]
+  },
+  {
+    "id_review": 7,
+    "npsn": 20103054,
+    "gambar": "../../public/categoryimg/cat-11.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["nina", "yos"],
+    "review": ["adem, gurunya baik", "sekolahnya mantap"]
+  },
+  {
+    "id_review": 8,
+    "npsn": 20103056,
+    "gambar": "../../public/categoryimg/cat-12.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["nina", "yos"],
+    "review": ["adem, gurunya baik", "sekolahnya mantap"]
+  },
+  {
+    "id_review": 9,
+    "npsn": 20103057,
+    "gambar": "../../public/categoryimg/cat-13.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["nina", "yos"],
+    "review": ["adem, gurunya baik", "sekolahnya mantap"]
+  },
+  {
+    "id_review": 10,
+    "npsn": 20103058,
+    "gambar": "../../public/categoryimg/cat-14.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["nina", "yos"],
+    "review": ["adem, gurunya baik", "sekolahnya mantap"]
+  },
+  {
+    "id_review": 11,
+    "npsn": 20103059,
+    "gambar": "../../public/categoryimg/cat-15.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["neymar", "mbappe"],
+    "review": ["kerjasama timnya sangat baik", "sama kayak neymar"]
+  },
+  {
+    "id_review": 12,
+    "npsn": 20103061,
+    "gambar": "../../public/categoryimg/cat-16.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["neymar", "mbappe"],
+    "review": ["kerjasama timnya sangat baik", "sama kayak neymar"]
+  },
+  {
+    "id_review": 13,
+    "npsn": 20103062,
+    "gambar": "../../public/categoryimg/cat-17.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["neymar", "mbappe"],
+    "review": ["kerjasama timnya sangat baik", "sama kayak neymar"]
+  },
+  {
+    "id_review": 14,
+    "npsn": 20103063,
+    "gambar": "../../public/categoryimg/cat-18.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["neymar", "mbappe"],
+    "review": ["kerjasama timnya sangat baik", "sama kayak neymar"]
+  },
+  {
+    "id_review": 15,
+    "npsn": 20103066,
+    "gambar": "../../public/categoryimg/cat-19.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["neymar", "mbappe"],
+    "review": ["kerjasama timnya sangat baik", "sama kayak neymar"]
+  },
+  {
+    "id_review": 16,
+    "npsn": 20103066,
+    "gambar": "../../public/categoryimg/cat-20.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["anonim1", "anonim2"],
+    "review": ["sekolahnya kotor", "gurunya kurang berpengalaman"]
+  },
+  {
+    "id_review": 17,
+    "npsn": 20103083,
+    "gambar": "../../public/categoryimg/cat-21.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["anonim1", "anonim2"],
+    "review": ["sekolahnya kotor", "gurunya kurang berpengalaman"]
+  },
+  {
+    "id_review": 18,
+    "npsn": 20103087,
+    "gambar": "../../public/categoryimg/cat-22.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["anonim1", "anonim2"],
+    "review": ["sekolahnya kotor", "gurunya kurang berpengalaman"]
+  },
+  {
+    "id_review": 19,
+    "npsn": 20103089,
+    "gambar": "../../public/categoryimg/cat-23.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["anonim1", "anonim2"],
+    "review": ["sekolahnya kotor", "gurunya kurang berpengalaman"]
+  },
+  {
+    "id_review": 20,
+    "npsn": 20103099,
+    "gambar": "../../public/categoryimg/cat-24.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["anonim1", "anonim2"],
+    "review": ["sekolahnya kotor", "gurunya kurang berpengalaman"]
+  },
+  {
+    "id_review": 21,
+    "npsn": 20103405,
+    "gambar": "../../public/categoryimg/cat-25.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["yunus", "mia"],
+    "review": ["lumayan bagus", "pengajarnya ramah"]
+  },
+  {
+    "id_review": 22,
+    "npsn": 20103406,
+    "gambar": "../../public/categoryimg/cat-26.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["yunus", "mia"],
+    "review": ["lumayan bagus", "pengajarnya ramah"]
+  },
+  {
+    "id_review": 23,
+    "npsn": 20103408,
+    "gambar": "../../public/categoryimg/cat-27.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["yunus", "mia"],
+    "review": ["lumayan bagus", "pengajarnya ramah"]
+  },
+  {
+    "id_review": 24,
+    "npsn": 20103432,
+    "gambar": "../../public/categoryimg/cat-28.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["yunus", "mia"],
+    "review": ["lumayan bagus", "pengajarnya ramah"]
+  },
+  {
+    "id_review": 25,
+    "npsn": 20103433,
+    "gambar": "../../public/categoryimg/cat-29.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["yunus", "mia"],
+    "review": ["lumayan bagus", "pengajarnya ramah"]
+  },
+  {
+    "id_review": 26,
+    "npsn": 20104318,
+    "gambar": "../../public/categoryimg/cat-30.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["yogi", "gugun"],
+    "review": ["pelajarannya relevan", "kerennnnnnnn"]
+  },
+  {
+    "id_review": 27,
+    "npsn": 20106233,
+    "gambar": "../../public/categoryimg/cat-31.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["yogi", "gugun"],
+    "review": ["pelajarannya relevan", "kerennnnnnnn"]
+  },
+  {
+    "id_review": 28,
+    "npsn": 20106236,
+    "gambar": "../../public/categoryimg/cat-32.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["yogi", "gugun"],
+    "review": ["pelajarannya relevan", "kerennnnnnnn"]
+  },
+  {
+    "id_review": 29,
+    "npsn": 20108947,
+    "gambar": "../../public/categoryimg/cat-33.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["yogi", "gugun"],
+    "review": ["pelajarannya relevan", "kerennnnnnnn"]
+  },
+  {
+    "id_review": 30,
+    "npsn": 20108948,
+    "gambar": "../../public/categoryimg/cat-34.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["yogi", "gugun"],
+    "review": ["pelajarannya relevan", "kerennnnnnnn"]
+  },
+  {
+    "id_review": 31,
+    "npsn": 20108949,
+    "gambar": "../../public/categoryimg/cat-35.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["aril", "yayan"],
+    "review": ["lumayan bagus, namun fasilitas sekolah masih kurang memadai", "arghhhhh lorem ipsummmm"]
+  },
+  {
+    "id_review": 32,
+    "npsn": 20108949,
+    "gambar": "../../public/categoryimg/cat-36.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["aril", "yayan"],
+    "review": ["lumayan bagus, namun fasilitas sekolah masih kurang memadai", "arghhhhh lorem ipsummmm"]
+  },
+  {
+    "id_review": 33,
+    "npsn": 20109195,
+    "gambar": "../../public/categoryimg/cat-37.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["aril", "yayan"],
+    "review": ["lumayan bagus, namun fasilitas sekolah masih kurang memadai", "arghhhhh lorem ipsummmm"]
+  },
+  {
+    "id_review": 34,
+    "npsn": 20109280,
+    "gambar": "../../public/categoryimg/cat-38.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["aril", "yayan"],
+    "review": ["lumayan bagus, namun fasilitas sekolah masih kurang memadai", "arghhhhh lorem ipsummmm"]
+  },
+  {
+    "id_review": 35,
+    "npsn": 20109284,
+    "gambar": "../../public/categoryimg/cat-39.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["aril", "yayan"],
+    "review": ["lumayan bagus, namun fasilitas sekolah masih kurang memadai", "arghhhhh lorem ipsummmm"]
+  },
+  {
+    "id_review": 36,
+    "npsn": 20109285,
+    "gambar": "../../public/categoryimg/cat-40.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["mira", "wati"],
+    "review": ["gurunya ramah", "pengajarnya sangat baik"]
+  },
+  {
+    "id_review": 37,
+    "npsn": 20109328,
+    "gambar": "../../public/categoryimg/cat-41.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["mira", "wati"],
+    "review": ["gurunya ramah", "pengajarnya sangat baik"]
+  },
+  {
+    "id_review": 38,
+    "npsn": 20109416,
+    "gambar": "../../public/categoryimg/cat-42.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["mira", "wati"],
+    "review": ["gurunya ramah", "pengajarnya sangat baik"]
+  },
+  {
+    "id_review": 39,
+    "npsn": 20109425,
+    "gambar": "../../public/categoryimg/cat-43.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["mira", "wati"],
+    "review": ["gurunya ramah", "pengajarnya sangat baik"]
+  },
+  {
+    "id_review": 40,
+    "npsn": 20109427,
+    "gambar": "../../public/categoryimg/cat-44.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["mira", "wati"],
+    "review": ["gurunya ramah", "pengajarnya sangat baik"]
+  },
+  {
+    "id_review": 41,
+    "npsn": 20109466,
+    "gambar": "../../public/categoryimg/cat-45.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["wiwin", "eko"],
+    "review": ["sekolahnya bagus", "fasilitas baik"]
+  },
+  {
+    "id_review": 42,
+    "npsn": 20109479,
+    "gambar": "../../public/categoryimg/cat-46.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["wiwin", "eko"],
+    "review": ["sekolahnya bagus", "fasilitas baik"]
+  },
+  {
+    "id_review": 43,
+    "npsn": 20109529,
+    "gambar": "../../public/categoryimg/cat-47.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["wiwin", "eko"],
+    "review": ["sekolahnya bagus", "fasilitas baik"]
+  },
+  {
+    "id_review": 44,
+    "npsn": 20109532,
+    "gambar": "../../public/categoryimg/cat-48.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["wiwin", "eko"],
+    "review": ["sekolahnya bagus", "fasilitas baik"]
+  },
+  {
+    "id_review": 45,
+    "npsn": 20109537,
+    "gambar": "../../public/categoryimg/cat-49.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["wiwin", "eko"],
+    "review": ["sekolahnya bagus", "fasilitas baik"]
+  },
+  {
+    "id_review": 46,
+    "npsn": 20109549,
+    "gambar": "../../public/categoryimg/cat-50.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["sri", "joko"],
+    "review": ["pelayanan baik", "gurunya ramah"]
+  },
+  {
+    "id_review": 47,
+    "npsn": 20109552,
+    "gambar": "../../public/categoryimg/cat-51.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["sri", "joko"],
+    "review": ["pelayanan baik", "gurunya ramah"]
+  },
+  {
+    "id_review": 48,
+    "npsn": 20109554,
+    "gambar": "../../public/categoryimg/cat-52.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["sri", "joko"],
+    "review": ["pelayanan baik", "gurunya ramah"]
+  },
+  {
+    "id_review": 49,
+    "npsn": 20109970,
+    "gambar": "../../public/categoryimg/cat-53.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["sri", "joko"],
+    "review": ["pelayanan baik", "gurunya ramah"]
+  },
+  {
+    "id_review": 50,
+    "npsn": 20110023,
+    "gambar": "../../public/categoryimg/cat-54.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["sri", "joko"],
+    "review": ["pelayanan baik", "gurunya ramah"]
+  },
+  {
+    "id_review": 51,
+    "npsn": 20110024,
+    "gambar": "../../public/categoryimg/cat-55.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["yonatan", "agus"],
+    "review": ["lingkungannya membantu perkembangan siswa", "dekat dengan rumah"]
+  },
+  {
+    "id_review": 52,
+    "npsn": 20110151,
+    "gambar": "../../public/categoryimg/cat-56.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["yonatan", "agus"],
+    "review": ["lingkungannya membantu perkembangan siswa", "dekat dengan rumah"]
+  },
+  {
+    "id_review": 53,
+    "npsn": 20110154,
+    "gambar": "../../public/categoryimg/cat-57.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["yonatan", "agus"],
+    "review": ["lingkungannya membantu perkembangan siswa", "dekat dengan rumah"]
+  },
+  {
+    "id_review": 54,
+    "npsn": 20110240,
+    "gambar": "../../public/categoryimg/cat-58.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["yonatan", "agus"],
+    "review": ["lingkungannya membantu perkembangan siswa", "dekat dengan rumah"]
+  },
+  {
+    "id_review": 55,
+    "npsn": 20110268,
+    "gambar": "../../public/categoryimg/cat-59.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["yonatan", "agus"],
+    "review": ["lingkungannya membantu perkembangan siswa", "dekat dengan rumah"]
+  },
+  {
+    "id_review": 56,
+    "npsn": 20110274,
+    "gambar": "../../public/categoryimg/cat-60.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["santi", "fajar"],
+    "review": ["sekolahnya bersih", "nyaman dan aman"]
+  },
+  {
+    "id_review": 57,
+    "npsn": 20110334,
+    "gambar": "../../public/categoryimg/cat-61.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["santi", "fajar"],
+    "review": ["sekolahnya bersih", "nyaman dan aman"]
+  },
+  {
+    "id_review": 58,
+    "npsn": 20110336,
+    "gambar": "../../public/categoryimg/cat-62.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["santi", "fajar"],
+    "review": ["sekolahnya bersih", "nyaman dan aman"]
+  },
+  {
+    "id_review": 59,
+    "npsn": 20110817,
+    "gambar": "../../public/categoryimg/cat-63.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["santi", "fajar"],
+    "review": ["sekolahnya bersih", "nyaman dan aman"]
+  },
+  {
+    "id_review": 60,
+    "npsn": 20110818,
+    "gambar": "../../public/categoryimg/cat-64.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["santi", "fajar"],
+    "review": ["sekolahnya bersih", "nyaman dan aman"]
+  },
+  {
+    "id_review": 61,
+    "npsn": 20110819,
+    "gambar": "../../public/categoryimg/cat-65.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["bela", "sumarni"],
+    "review": ["tenaga pendidik cukup baik", "hihihihihihih hohohohoho yeeeee"]
+  },
+  {
+    "id_review": 62,
+    "npsn": 20110820,
+    "gambar": "../../public/categoryimg/cat-66.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["bela", "sumarni"],
+    "review": ["tenaga pendidik cukup baik", "hihihihihihih hohohohoho yeeeee"]
+  },
+  {
+    "id_review": 63,
+    "npsn": 20110821,
+    "gambar": "../../public/categoryimg/cat-67.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["bela", "sumarni"],
+    "review": ["tenaga pendidik cukup baik", "hihihihihihih hohohohoho yeeeee"]
+  },
+  {
+    "id_review": 64,
+    "npsn": 20112274,
+    "gambar": "../../public/categoryimg/cat-68.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["bela", "sumarni"],
+    "review": ["tenaga pendidik cukup baik", "hihihihihihih hohohohoho yeeeee"]
+  },
+  {
+    "id_review": 65,
+    "npsn": 20112403,
+    "gambar": "../../public/categoryimg/cat-69.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["bela", "sumarni"],
+    "review": ["tenaga pendidik cukup baik", "hihihihihihih hohohohoho yeeeee"]
+  },
+  {
+    "id_review": 66,
+    "npsn": 20112472,
+    "gambar": "../../public/categoryimg/cat-70.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["anton", "alfa"],
+    "review": ["lingkungan belajar baik", "gak mau sekolah pengen beli trukkkk"]
+  },
+  {
+    "id_review": 67,
+    "npsn": 20178285,
+    "gambar": "../../public/categoryimg/cat-71.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["anton", "alfa"],
+    "review": ["lingkungan belajar baik", "gak mau sekolah pengen beli trukkkk"]
+  },
+  {
+    "id_review": 68,
+    "npsn": 20218361,
+    "gambar": "../../public/categoryimg/cat-72.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["anton", "alfa"],
+    "review": ["lingkungan belajar baik", "gak mau sekolah pengen beli trukkkk"]
+  },
+  {
+    "id_review": 69,
+    "npsn": 69755838,
+    "gambar": "../../public/categoryimg/cat-73.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["anton", "alfa"],
+    "review": ["lingkungan belajar baik", "gak mau sekolah pengen beli trukkkk"]
+  },
+  {
+    "id_review": 70,
+    "npsn": 69755839,
+    "gambar": "../../public/categoryimg/cat-74.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["anton", "alfa"],
+    "review": ["lingkungan belajar baik", "gak mau sekolah pengen beli trukkkk"]
+  },
+  {
+    "id_review": 71,
+    "npsn": 69756904,
+    "gambar": "../../public/categoryimg/cat-75.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["dobleh", "yono"],
+    "review": ["saya aslinya dua orang", "kamu siapa, rumahnya dimana"]
+  },
+  {
+    "id_review": 72,
+    "npsn": 69756905,
+    "gambar": "../../public/categoryimg/cat-76.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["dobleh", "yono"],
+    "review": ["saya aslinya dua orang", "kamu siapa, rumahnya dimana"]
+  },
+  {
+    "id_review": 73,
+    "npsn": 69757216,
+    "gambar": "../../public/categoryimg/cat-77.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["dobleh", "yono"],
+    "review": ["saya aslinya dua orang", "kamu siapa, rumahnya dimana"]
+  },
+  {
+    "id_review": 74,
+    "npsn": 69758113,
+    "gambar": "../../public/categoryimg/cat-78.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["dobleh", "yono"],
+    "review": ["saya aslinya dua orang", "kamu siapa, rumahnya dimana"]
+  },
+  {
+    "id_review": 75,
+    "npsn": 69758126,
+    "gambar": "../../public/categoryimg/cat-79.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["dobleh", "yono"],
+    "review": ["saya aslinya dua orang", "kamu siapa, rumahnya dimana"]
+  },
+  {
+    "id_review": 76,
+    "npsn": 69759296,
+    "gambar": "../../public/categoryimg/cat-80.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["samsudin", "maya"],
+    "review": ["kepasar beli semangka, selamat hari rabu", "rose are red violet are blue, i love u"]
+  },
+  {
+    "id_review": 77,
+    "npsn": 69762617,
+    "gambar": "../../public/categoryimg/cat-81.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["samsudin", "maya"],
+    "review": ["kepasar beli semangka, selamat hari rabu", "rose are red violet are blue, i love u"]
+  },
+  {
+    "id_review": 78,
+    "npsn": 69764532,
+    "gambar": "../../public/categoryimg/cat-82.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["samsudin", "maya"],
+    "review": ["kepasar beli semangka, selamat hari rabu", "rose are red violet are blue, i love u"]
+  },
+  {
+    "id_review": 79,
+    "npsn": 69766211,
+    "gambar": "../../public/categoryimg/cat-83.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["samsudin", "maya"],
+    "review": ["kepasar beli semangka, selamat hari rabu", "rose are red violet are blue, i love u"]
+  },
+  {
+    "id_review": 80,
+    "npsn": 69872299,
+    "gambar": "../../public/categoryimg/cat-84.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["samsudin", "maya"],
+    "review": ["kepasar beli semangka, selamat hari rabu", "rose are red violet are blue, i love u"]
+  },
+  {
+    "id_review": 81,
+    "npsn": 69872300,
+    "gambar": "../../public/categoryimg/cat-85.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["marni", "marta"],
+    "review": ["sekolah deket rumah saya", "yoo ndak tau kok tanya saya"]
+  },
+  {
+    "id_review": 82,
+    "npsn": 69892372,
+    "gambar": "../../public/categoryimg/cat-86.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["marni", "marta"],
+    "review": ["sekolah deket rumah saya", "yoo ndak tau kok tanya saya"]
+  },
+  {
+    "id_review": 83,
+    "npsn": 69900890,
+    "gambar": "../../public/categoryimg/cat-87.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["marni", "marta"],
+    "review": ["sekolah deket rumah saya", "yoo ndak tau kok tanya saya"]
+  },
+  {
+    "id_review": 84,
+    "npsn": 90109004,
+    "gambar": "../../public/categoryimg/cat-88.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["marni", "marta"],
+    "review": ["sekolah deket rumah saya", "yoo ndak tau kok tanya saya"]
+  },
+  {
+    "id_review": 85,
+    "npsn": "",
+    "gambar": "../../public/categoryimg/cat-89.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["marni", "marta"],
+    "review": ["sekolah deket rumah saya", "yoo ndak tau kok tanya saya"]
+  },
+  {
+    "id_review": 86,
+    "npsn": "",
+    "gambar": "../../public/categoryimg/cat-90.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["gilang", "vania"],
+    "review": ["enak, ada kantinnya", "yang beneeeeerr, kamu bo'ong"]
+  },
+  {
+    "id_review": 87,
+    "npsn": "",
+    "gambar": "../../public/categoryimg/cat-91.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["gilang", "vania"],
+    "review": ["enak, ada kantinnya", "yang beneeeeerr, kamu bo'ong"]
+  },
+  {
+    "id_review": 88,
+    "npsn": "",
+    "gambar": "../../public/categoryimg/cat-92.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["gilang", "vania"],
+    "review": ["enak, ada kantinnya", "yang beneeeeerr, kamu bo'ong"]
+  },
+  {
+    "id_review": 89,
+    "npsn": "",
+    "gambar": "../../public/categoryimg/cat-93.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["gilang", "vania"],
+    "review": ["enak, ada kantinnya", "yang beneeeeerr, kamu bo'ong"]
+  },
+  {
+    "id_review": 90,
+    "npsn": "",
+    "gambar": "../../public/categoryimg/cat-94.jpg",
+    "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "reviwer": ["gilang", "vania"],
+    "review": ["enak, ada kantinnya", "yang beneeeeerr, kamu bo'ong"]
+  }
+]
