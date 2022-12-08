@@ -12,6 +12,13 @@
   font-weight: 700 !important;
 }
 
+#favoriteButton {
+  position: fixed;
+  right: 45px;
+  bottom: 45px;
+  z-index: 999;
+}
+
 .back-to-top {
   position: fixed;
   display: none;

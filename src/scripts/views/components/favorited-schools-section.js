@@ -5,10 +5,9 @@ class FavoritedSchoolsSection extends HTMLElement {
    * @param {any} schools
    */
   set schools(schools) {
-    this.render();
+    this._schools = schools;
 
-    const schoolList = document.querySelector('school-list');
-    schoolList.schools = schools;
+    this.render();
   }
 
   render() {
@@ -20,6 +19,9 @@ class FavoritedSchoolsSection extends HTMLElement {
         </div>
         <school-list class="row g-4 justify-content-center"></school-list>
       </div>`;
+
+    const schoolList = document.querySelector('school-list');
+    schoolList.schools = this._schools;
   }
 }
 

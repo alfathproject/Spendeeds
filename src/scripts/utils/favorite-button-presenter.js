@@ -14,17 +14,17 @@ const FavoriteButtonPresenter = {
   },
 
   async _renderButton() {
-    const { id } = this._school;
+    const { npsn } = this._school;
 
-    if (await this._isSchoolExist(id)) {
+    if (await this._isSchoolExist(npsn)) {
       this._renderFavorited();
     } else {
       this._renderFavorite();
     }
   },
 
-  async _isSchoolExist(id) {
-    const school = await this._favoriteSchools.getSchool(id);
+  async _isSchoolExist(npsn) {
+    const school = await this._favoriteSchools.detail(npsn);
     return !!school;
   },
 
@@ -33,7 +33,7 @@ const FavoriteButtonPresenter = {
 
     const favoriteButton = document.querySelector('#favoriteButton');
     favoriteButton.addEventListener('click', async () => {
-      const response = await this._favoriteSchools.putSchool(
+      const response = await this._favoriteSchools.put(
         this._school,
       );
       if (response) {
@@ -46,7 +46,7 @@ const FavoriteButtonPresenter = {
         createAlertTemplate.alert(
           'error',
           'Error!',
-          'failed to add school!',
+          'Failed to add school!',
         );
       }
       this._renderButton();
@@ -58,8 +58,8 @@ const FavoriteButtonPresenter = {
 
     const favoriteButton = document.querySelector('#favoriteButton');
     favoriteButton.addEventListener('click', async () => {
-      const response = await this._favoriteSchools.deleteSchool(
-        this._school.id,
+      const response = await this._favoriteSchools.delete(
+        this._school.npsn,
       );
       if (!response) {
         createAlertTemplate.alert(
@@ -71,7 +71,7 @@ const FavoriteButtonPresenter = {
         createAlertTemplate.alert(
           'error',
           'Error!',
-          'failed to remove school!',
+          'Failed to remove school!',
         );
       }
       this._renderButton();

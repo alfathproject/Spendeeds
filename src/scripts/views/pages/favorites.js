@@ -1,6 +1,7 @@
 import '../components/header-section';
 import '../components/search-section';
 import '../components/favorited-schools-section';
+import FavoriteSchoolIdb from '../../data/favorite-school-idb';
 
 export default {
   async render() {
@@ -26,5 +27,9 @@ export default {
       title: 'Favorited Schools',
       page: 'Favorited',
     };
+
+    const favoritedSchools = await FavoriteSchoolIdb.schools();
+    const favoritedSchoolsSection = document.querySelector('favorited-schools-section');
+    favoritedSchoolsSection.schools = favoritedSchools;
   },
 };
