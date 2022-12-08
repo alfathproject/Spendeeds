@@ -2,7 +2,6 @@ const webpack = require('webpack');
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
-// const WorkboxWebpackPlugin = require('workbox-webpack-plugin');
 
 module.exports = {
   entry: {
@@ -31,14 +30,7 @@ module.exports = {
       },
       {
         test: /\.s[ac]ss$/i,
-        use: [
-          // Creates `style` nodes from JS strings
-          'style-loader',
-          // Translates CSS into CommonJS
-          'css-loader',
-          // Compiles Sass to CSS
-          'sass-loader',
-        ],
+        use: ['style-loader', 'css-loader', 'sass-loader'],
       },
     ],
   },
@@ -60,9 +52,5 @@ module.exports = {
         },
       ],
     }),
-    // new WorkboxWebpackPlugin.GenerateSW({
-    //   swDest : './sw.bundle.js',
-    //   maximumFileSizeToCacheInBytes : 5000000,
-    // }),
   ],
 };
