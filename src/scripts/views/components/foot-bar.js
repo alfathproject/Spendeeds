@@ -6,6 +6,7 @@ class FootBar extends HTMLElement {
   render() {
     this.innerHTML = `
       <div class="container py-5">
+        
         <div class="row g-5">
           <div class="col-lg-3 col-md-6 d-flex justify-content-center align-items-center">
             <img src="./img/Spendeeds-Light.png" alt="SPENDEEDS LOGO" class="w-75">
@@ -50,7 +51,7 @@ class FootBar extends HTMLElement {
               <div class="footer-menu">
                 <a href="#/terms-and-conditions">Term & Conditions</a>
                 <a href="#">Help</a>
-                <a href="#">FAQs</a>
+                <a href="#/frequently-asked-questions">FAQs</a>
               </div>
             </div>
           </div>
