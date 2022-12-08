@@ -13,7 +13,7 @@ class TermsConditions extends HTMLElement {
 
       <div class="container">
         <div class="text-center wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
-          <h6 class="section-title bg-white text-center text-primary px-3">Terms and Condition</h6>
+          <h6 class="section-title bg-white text-center text-primary px-3">Terms and Conditions</h6>
           <h1 class="mb-5">Syarat dan Ketentuan</h1>
         </div>
         <div class="text-start">
