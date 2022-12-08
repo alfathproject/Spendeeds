@@ -1,5 +1,7 @@
 // import API_ENDPOINT from '../globals/api-endpoint';
 import data from './data.json';
+import datareviews from './reviews-data.json';
+import config from '../globals/config';
 
 class SchoolDbSource {
   static async schools() {
@@ -18,6 +20,19 @@ class SchoolDbSource {
 
   static async detail(npsn) {
     return data.filter((school) => Number(school.npsn) === Number(npsn));
+  }
+
+  static async categorized(category) {
+    return data.filter((school) => school.kecamatan.charAt(0).toLowerCase() === category);
+  }
+
+  // random image review generator
+  static async randomImageReview(id) {
+    const datareview = datareviews.filter((review) => Number(review.id_review) === Number(id));
+    const random = Math.floor(Math.random() * 37);
+    const configimg = config.BASE_CATEGORY_IMAGE_URL(`cat-${random}.jpg`);
+    datareview.gambar = configimg;
+    return datareview;
   }
 
   // static async list() {

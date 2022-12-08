@@ -195,3 +195,7 @@ node_modules
 package-lock.json
 .env
 .test.env
+.hintrc
+note.txt
+data copy.json
+dist
