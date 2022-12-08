@@ -9,6 +9,7 @@ import About from '../views/pages/about';
 import Contact from '../views/pages/contact';
 import Popular from '../views/pages/popular';
 import Acreditated from '../views/pages/acreditated';
+import TermsAndConditions from '../views/pages/TermsAndConditions';
 
 const routes = {
   '/': Home, // default page
@@ -23,6 +24,7 @@ const routes = {
   '/contact': Contact,
   '/popular': Popular,
   '/acreditated': Acreditated,
+  '/terms-and-conditions' : TermsAndConditions,
 };
 
 export default routes;

@@ -48,7 +48,7 @@ class FootBar extends HTMLElement {
             </div>
             <div class="col-md-6 text-center text-md-end">
               <div class="footer-menu">
-                <a href="#">Term & Conditions</a>
+                <a href="#/terms-and-conditions">Term & Conditions</a>
                 <a href="#">Help</a>
                 <a href="#">FAQs</a>
               </div>
