@@ -10,7 +10,7 @@ export default {
       <header-section class="container-fluid bg-primary py-5 mb-5 page-header d-block"></header-section>
     
       <!-- Popular Schools  -->
-      <popular-schools class="container-xxl py-5"></popular-schools>`;
+      <popular-schools-section class="container-xxl py-5"></popular-schools-section>`;
   },
 
   async afterRender() {
