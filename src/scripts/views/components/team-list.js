@@ -26,7 +26,7 @@ class TeamList extends HTMLElement {
           'animate__animated',
           'animate__fadeInUp',
         );
-        teamItem.setAttribute('data-wow-delay', `${(i + 10) / 20}s`);
+        teamItem.setAttribute('data-wow-delay', `${(i + 10) / 15}s`);
 
         this.appendChild(teamItem);
       });
