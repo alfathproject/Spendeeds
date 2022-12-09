@@ -6,24 +6,17 @@ import '../components/team-section';
 export default {
   render() {
     return `
-      <!-- Header Start -->
+      <!-- Header -->
       <header-section class="container-fluid bg-primary py-5 mb-5 page-header d-block"></header-section>
-      <!-- Header End -->
     
-    
-      <!-- Service Start -->
+      <!-- Service -->
       <services-section class="container-xxl py-5"></services-section>
-      <!-- Service End -->
     
-    
-      <!-- About Start -->
+      <!-- About -->
       <about-section class="container-xxl py-5" id="about"></about-section>
-      <!-- About End -->
     
-    
-      <!-- Team Start -->
-      <team-section class="container-xxl py-5"></team-section>
-      <!-- Team End -->`;
+      <!-- Team -->
+      <team-section class="container-xxl py-5"></team-section>`;
   },
 
   async afterRender() {

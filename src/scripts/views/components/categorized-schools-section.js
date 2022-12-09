@@ -5,6 +5,7 @@ class CategorizedSchoolsSection extends HTMLElement {
 
   set schools(schools) {
     this._schools = schools;
+
     this.render();
   }
 

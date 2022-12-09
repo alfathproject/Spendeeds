@@ -1,18 +1,16 @@
 import '../components/header-section';
 import '../components/search-section';
-import '../components/popular-schools';
+import '../components/popular-schools-section';
 import SchoolDbSource from '../../data/schooldb-source';
 
 export default {
   render() {
     return `
-      <!-- Header Start -->
+      <!-- Header  -->
       <header-section class="container-fluid bg-primary py-5 mb-5 page-header d-block"></header-section>
-      <!-- Header End -->
     
-      <!-- Schools Start -->
-      <popular-schools class="container-xxl py-5"></popular-schools>
-      <!-- Schools End -->`;
+      <!-- Popular Schools  -->
+      <popular-schools class="container-xxl py-5"></popular-schools>`;
   },
 
   async afterRender() {
@@ -22,8 +20,8 @@ export default {
       page: 'Popular',
     };
 
-    const popularSchools = await SchoolDbSource.popularSchools();
-    const PopularSchoolsSection = document.querySelector('popular-schools');
+    const popularSchools = await SchoolDbSource.allPopularSchools();
+    const PopularSchoolsSection = document.querySelector('popular-schools-section');
     PopularSchoolsSection.schools = popularSchools;
   },
 };

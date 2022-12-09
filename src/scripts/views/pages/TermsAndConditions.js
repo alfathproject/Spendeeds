@@ -4,13 +4,11 @@ import '../components/terms-conditions';
 export default {
   render() {
     return `
-      <!-- Header Start -->
+      <!-- Header -->
       <header-section class="container-fluid bg-primary py-5 mb-5 page-header d-block"></header-section>
-      <!-- Header End -->
 
-      <!-- Terms And Condition Start -->
-      <terms-conditions></terms-conditions>
-      <!-- Terms And Condition End -->`;  
+      <!-- Terms And Conditions -->
+      <terms-conditions></terms-conditions>`;
   },
 
   async afterRender() {

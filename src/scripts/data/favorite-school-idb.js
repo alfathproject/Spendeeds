@@ -1,3 +1,5 @@
+/* eslint-disable no-prototype-builtins */
+/* eslint-disable consistent-return */
 import { openDB } from 'idb';
 import CONFIG from '../globals/config';
 
@@ -13,37 +15,20 @@ const FavoriteSchoolIdb = {
   async schools() {
     return (await dbPromise).getAll(OBJECT_STORE_NAME);
   },
+
   async detail(npsn) {
-    if (!npsn) {
-      return;
-    }
+    if (!npsn) return;
     return (await dbPromise).get(OBJECT_STORE_NAME, npsn);
   },
+
   async put(school) {
-    if (!school.hasOwnProperty('npsn')) {
-      return;
-    }
+    if (!school.hasOwnProperty('npsn')) return;
     return (await dbPromise).put(OBJECT_STORE_NAME, school);
   },
+
   async delete(npsn) {
     return (await dbPromise).delete(OBJECT_STORE_NAME, npsn);
   },
-  // async searchSchools(query) {
-  //   return (await this.getAllSchools()).filter((school) => {
-  //     const loweredCaseSchoolName = (
-  //       school.name || '-'
-  //     ).toLowerCase();
-  //     const jammedSchoolName = loweredCaseSchoolName.replace(
-  //       /\s/g,
-  //       '',
-  //     );
-
-  //     const loweredCaseQuery = query.toLowerCase();
-  //     const jammedQuery = loweredCaseQuery.replace(/\s/g, '');
-
-  //     return jammedSchoolName.indexOf(jammedQuery) !== -1;
-  //   });
-  // },
 };
 
 export default FavoriteSchoolIdb;

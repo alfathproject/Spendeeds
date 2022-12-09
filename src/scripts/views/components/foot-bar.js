@@ -9,7 +9,7 @@ class FootBar extends HTMLElement {
         
         <div class="row g-5">
           <div class="col-lg-3 col-md-6 d-flex justify-content-center align-items-center">
-            <img src="./img/Spendeeds-Light.png" alt="SPENDEEDS LOGO" class="w-75">
+            <img src="./img/spendeeds/logo/Spendeeds-Dark.png" alt="Logo Aplikasi" class="w-75">
           </div>
           <div class="col-lg-6 col-md-6">
             <h4 class="text-white mb-3">Quick Link</h4>
@@ -49,9 +49,9 @@ class FootBar extends HTMLElement {
             </div>
             <div class="col-md-6 text-center text-md-end">
               <div class="footer-menu">
-                <a href="#/terms-and-conditions">Term & Conditions</a>
-                <a href="#">Help</a>
-                <a href="#/frequently-asked-questions">FAQs</a>
+                <a href="/#/terms-and-conditions">Term & Conditions</a>
+                <a href="/#/">Help</a>
+                <a href="/#/frequently-asked-questions">FAQs</a>
               </div>
             </div>
           </div>

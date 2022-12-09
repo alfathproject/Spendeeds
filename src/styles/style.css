@@ -40,6 +40,7 @@
   z-index: 999;
 }
 
+
 /*** Spinner ***/
 #spinner {
   opacity: 0;
@@ -57,6 +58,7 @@
 #content>* {
   display: block;
 }
+
 
 /*** Button ***/
 .btn {
@@ -217,7 +219,7 @@
 }
 
 .page-header {
-  background: linear-gradient(rgba(24, 29, 56, .7), rgba(24, 29, 56, .7)), url(/src/public/img/carousel-1.jpg);
+  background: linear-gradient(rgba(24, 29, 56, .7), rgba(24, 29, 56, .7)), url('/src/public/img/carousel/carousel-1.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

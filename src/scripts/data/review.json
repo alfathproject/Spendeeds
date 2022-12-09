@@ -1,0 +1,631 @@
+[{
+    "id_review": 1,
+    "npsn": 2010247,
+    "nama": "ical",
+    "komentar": "bagus sekolahnya",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 2,
+    "npsn": 20102422,
+    "nama": "ical",
+    "komentar": "bagus sekolahnya",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 3,
+    "npsn": 20102737,
+    "nama": "ical",
+    "komentar": "bagus sekolahnya",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 4,
+    "npsn": 20103040,
+    "nama": "ical",
+    "komentar": "bagus sekolahnya",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 5,
+    "npsn": 20103041,
+    "nama": "ical",
+    "komentar": "bagus sekolahnya",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 6,
+    "npsn": 20103053,
+    "nama": "nina",
+    "komentar": "adem, gurunya baik",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 7,
+    "npsn": 20103054,
+    "nama": "nina",
+    "komentar": "adem, gurunya baik",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 8,
+    "npsn": 20103056,
+    "nama": "nina",
+    "komentar": "adem, gurunya baik",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 9,
+    "npsn": 20103057,
+    "nama": "nina",
+    "komentar": "adem, gurunya baik",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 10,
+    "npsn": 20103058,
+    "nama": "nina",
+    "komentar": "adem, gurunya baik",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 11,
+    "npsn": 20103059,
+    "nama": "neymar",
+    "komentar": "kerjasama timnya sangat baik",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 12,
+    "npsn": 20103061,
+    "nama": "neymar",
+    "komentar": "kerjasama timnya sangat baik",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 13,
+    "npsn": 20103062,
+    "nama": "neymar",
+    "komentar": "kerjasama timnya sangat baik",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 14,
+    "npsn": 20103063,
+    "nama": "neymar",
+    "komentar": "kerjasama timnya sangat baik",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 15,
+    "npsn": 20103066,
+    "nama": "neymar",
+    "komentar": "kerjasama timnya sangat baik",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 16,
+    "npsn": 20103066,
+    "nama": "anonim1",
+    "komentar": "sekolahnya kotor",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 17,
+    "npsn": 20103083,
+    "nama": "anonim1",
+    "komentar": "sekolahnya kotor",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 18,
+    "npsn": 20103087,
+    "nama": "anonim1",
+    "komentar": "sekolahnya kotor",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 19,
+    "npsn": 20103089,
+    "nama": "anonim1",
+    "komentar": "sekolahnya kotor",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 20,
+    "npsn": 20103099,
+    "nama": "anonim1",
+    "komentar": "sekolahnya kotor",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 21,
+    "npsn": 20103405,
+    "nama": "yunus",
+    "komentar": "lumayan bagus",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 22,
+    "npsn": 20103406,
+    "nama": "yunus",
+    "komentar": "lumayan bagus",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 23,
+    "npsn": 20103408,
+    "nama": "yunus",
+    "komentar": "lumayan bagus",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 24,
+    "npsn": 20103432,
+    "nama": "yunus",
+    "komentar": "lumayan bagus",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 25,
+    "npsn": 20103433,
+    "nama": "yunus",
+    "komentar": "lumayan bagus",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 26,
+    "npsn": 20104318,
+    "nama": "yogi",
+    "komentar": "pelajarannya relevan",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 27,
+    "npsn": 20106233,
+    "nama": "yogi",
+    "komentar": "pelajarannya relevan",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 28,
+    "npsn": 20106236,
+    "nama": "yogi",
+    "komentar": "pelajarannya relevan",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 29,
+    "npsn": 20108947,
+    "nama": "yogi",
+    "komentar": "pelajarannya relevan",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 30,
+    "npsn": 20108948,
+    "nama": "yogi",
+    "komentar": "pelajarannya relevan",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 31,
+    "npsn": 20108949,
+    "nama": "aril",
+    "komentar": "lumayan bagus, namun fasilitas sekolah masih kurang memadai",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 32,
+    "npsn": 20108949,
+    "nama": "aril",
+    "komentar": "lumayan bagus, namun fasilitas sekolah masih kurang memadai",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 33,
+    "npsn": 20109195,
+    "nama": "aril",
+    "komentar": "lumayan bagus, namun fasilitas sekolah masih kurang memadai",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 34,
+    "npsn": 20109280,
+    "nama": "aril",
+    "komentar": "lumayan bagus, namun fasilitas sekolah masih kurang memadai",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 35,
+    "npsn": 20109284,
+    "nama": "aril",
+    "komentar": "lumayan bagus, namun fasilitas sekolah masih kurang memadai",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 36,
+    "npsn": 20109285,
+    "nama": "mira",
+    "komentar": "gurunya ramah",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 37,
+    "npsn": 20109328,
+    "nama": "mira",
+    "komentar": "gurunya ramah",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 38,
+    "npsn": 20109416,
+    "nama": "mira",
+    "komentar": "gurunya ramah",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 39,
+    "npsn": 20109425,
+    "nama": "mira",
+    "komentar": "gurunya ramah",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 40,
+    "npsn": 20109427,
+    "nama": "mira",
+    "komentar": "gurunya ramah",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 41,
+    "npsn": 20109466,
+    "nama": "wiwin",
+    "komentar": "sekolahnya bagus",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 42,
+    "npsn": 20109479,
+    "nama": "wiwin",
+    "komentar": "sekolahnya bagus",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 43,
+    "npsn": 20109529,
+    "nama": "wiwin",
+    "komentar": "sekolahnya bagus",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 44,
+    "npsn": 20109532,
+    "nama": "wiwin",
+    "komentar": "sekolahnya bagus",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 45,
+    "npsn": 20109537,
+    "nama": "wiwin",
+    "komentar": "sekolahnya bagus",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 46,
+    "npsn": 20109549,
+    "nama": "sri",
+    "komentar": "pelayanan baik",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 47,
+    "npsn": 20109552,
+    "nama": "sri",
+    "komentar": "pelayanan baik",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 48,
+    "npsn": 20109554,
+    "nama": "sri",
+    "komentar": "pelayanan baik",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 49,
+    "npsn": 20109970,
+    "nama": "sri",
+    "komentar": "pelayanan baik",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 50,
+    "npsn": 20110023,
+    "nama": "sri",
+    "komentar": "pelayanan baik",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 51,
+    "npsn": 20110024,
+    "nama": "yonatan",
+    "komentar": "lingkungannya membantu perkembangan siswa",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 52,
+    "npsn": 20110151,
+    "nama": "yonatan",
+    "komentar": "lingkungannya membantu perkembangan siswa",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 53,
+    "npsn": 20110154,
+    "nama": "yonatan",
+    "komentar": "lingkungannya membantu perkembangan siswa",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 54,
+    "npsn": 20110240,
+    "nama": "yonatan",
+    "komentar": "lingkungannya membantu perkembangan siswa",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 55,
+    "npsn": 20110268,
+    "nama": "yonatan",
+    "komentar": "lingkungannya membantu perkembangan siswa",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 56,
+    "npsn": 20110274,
+    "nama": "santi",
+    "komentar": "sekolahnya bersih",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 57,
+    "npsn": 20110334,
+    "nama": "santi",
+    "komentar": "sekolahnya bersih",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 58,
+    "npsn": 20110336,
+    "nama": "santi",
+    "komentar": "sekolahnya bersih",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 59,
+    "npsn": 20110817,
+    "nama": "santi",
+    "komentar": "sekolahnya bersih",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 60,
+    "npsn": 20110818,
+    "nama": "santi",
+    "komentar": "sekolahnya bersih",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 61,
+    "npsn": 20110819,
+    "nama": "bela",
+    "komentar": "tenaga pendidik cukup baik",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 62,
+    "npsn": 20110820,
+    "nama": "bela",
+    "komentar": "tenaga pendidik cukup baik",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 63,
+    "npsn": 20110821,
+    "nama": "bela",
+    "komentar": "tenaga pendidik cukup baik",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 64,
+    "npsn": 20112274,
+    "nama": "bela",
+    "komentar": "tenaga pendidik cukup baik",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 65,
+    "npsn": 20112403,
+    "nama": "bela",
+    "komentar": "tenaga pendidik cukup baik",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 66,
+    "npsn": 20112472,
+    "nama": "anton",
+    "komentar": "lingkungan belajar baik",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 67,
+    "npsn": 20178285,
+    "nama": "anton",
+    "komentar": "lingkungan belajar baik",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 68,
+    "npsn": 20218361,
+    "nama": "anton",
+    "komentar": "lingkungan belajar baik",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 69,
+    "npsn": 69755838,
+    "nama": "anton",
+    "komentar": "lingkungan belajar baik",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 70,
+    "npsn": 69755839,
+    "nama": "anton",
+    "komentar": "lingkungan belajar baik",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 71,
+    "npsn": 69756904,
+    "nama": "dobleh",
+    "komentar": "saya aslinya dua orang",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 72,
+    "npsn": 69756905,
+    "nama": "dobleh",
+    "komentar": "saya aslinya dua orang",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 73,
+    "npsn": 69757216,
+    "nama": "dobleh",
+    "komentar": "saya aslinya dua orang",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 74,
+    "npsn": 69758113,
+    "nama": "dobleh",
+    "komentar": "saya aslinya dua orang",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 75,
+    "npsn": 69758126,
+    "nama": "dobleh",
+    "komentar": "saya aslinya dua orang",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 76,
+    "npsn": 69759296,
+    "nama": "samsudin",
+    "komentar": "kepasar beli semangka, selamat hari rabu",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 77,
+    "npsn": 69762617,
+    "nama": "samsudin",
+    "komentar": "kepasar beli semangka, selamat hari rabu",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 78,
+    "npsn": 69764532,
+    "nama": "samsudin",
+    "komentar": "kepasar beli semangka, selamat hari rabu",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 79,
+    "npsn": 69766211,
+    "nama": "samsudin",
+    "komentar": "kepasar beli semangka, selamat hari rabu",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 80,
+    "npsn": 69872299,
+    "nama": "samsudin",
+    "komentar": "kepasar beli semangka, selamat hari rabu",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 81,
+    "npsn": 69872300,
+    "nama": "marni",
+    "komentar": "sekolah deket rumah saya",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 82,
+    "npsn": 69892372,
+    "nama": "marni",
+    "komentar": "sekolah deket rumah saya",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 83,
+    "npsn": 69900890,
+    "nama": "marni",
+    "komentar": "sekolah deket rumah saya",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 84,
+    "npsn": 90109004,
+    "nama": "marni",
+    "komentar": "sekolah deket rumah saya",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 85,
+    "npsn": "",
+    "nama": "marni",
+    "komentar": "sekolah deket rumah saya",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 86,
+    "npsn": "",
+    "nama": "gilang",
+    "komentar": "enak, ada kantinnya",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 87,
+    "npsn": "",
+    "nama": "gilang",
+    "komentar": "enak, ada kantinnya",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 88,
+    "npsn": "",
+    "nama": "gilang",
+    "komentar": "enak, ada kantinnya",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 89,
+    "npsn": "",
+    "nama": "gilang",
+    "komentar": "enak, ada kantinnya",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id_review": 90,
+    "npsn": "",
+    "nama": "gilang",
+    "komentar": "enak, ada kantinnya",
+    "tanggal": "2022/09/12"
+  }
+]

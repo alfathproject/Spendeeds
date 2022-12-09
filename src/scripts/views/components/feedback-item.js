@@ -5,7 +5,7 @@ class FeedbackItem extends HTMLElement {
 
   render() {
     this.innerHTML = `
-      <img class="border rounded-circle p-2 mx-auto mb-3" src="./img/testimonial-1.jpg" style="width: 80px; height: 80px;">
+      <img class="border rounded-circle p-2 mx-auto mb-3" src="./img/testimonials/testimonial-1.jpg" alt="Avatar Penulis" style="width: 80px; height: 80px;">
       <h5 class="mb-0">Lorem Ipsum</h5>
       <p>Profession</p>
       <div class="testimonial-text bg-light text-center p-4">

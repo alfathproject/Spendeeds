@@ -6,8 +6,7 @@ class HeadBar extends HTMLElement {
   render() {
     this.innerHTML = `
       <a href="/#/" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-        <img src="./img/Speendeeds-Light-Landscape.png" alt="SPENDEEDS LOGO" height="120">
-        <!-- <h2 class="m-0 text-primary">SN-SchoolFinder</h2> -->
+        <img src="./img/spendeeds/logo/Speendeeds-Light-Landscape.png" alt="Logo Aplikasi" height="120">
       </a>
       <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>

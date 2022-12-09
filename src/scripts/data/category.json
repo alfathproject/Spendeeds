@@ -1,0 +1,21 @@
+[{
+  "id": 1,
+  "kategori": "Sekolah Populer",
+  "gambar": "cat-1.jpg",
+  "deskripsi": "Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea sanctus eirmod elitr."
+}, {
+  "id": 2,
+  "kategori": "Terakreditasi Baik",
+  "gambar": "cat-2.jpg",
+  "deskripsi": "Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea sanctus eirmod elitr."
+}, {
+  "id": 3,
+  "kategori": "Sekolah di Jakarta Selatan",
+  "gambar": "cat-3.jpg",
+  "deskripsi": "Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea sanctus eirmod elitr."
+}, {
+  "id": 3,
+  "kategori": "Sekolah di Jakarta Barat",
+  "gambar": "cat-3.jpg",
+  "deskripsi": "Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea sanctus eirmod elitr."
+}]

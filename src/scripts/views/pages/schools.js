@@ -8,29 +8,20 @@ import SchoolDbSource from '../../data/schooldb-source';
 export default {
   render() {
     return `
-      <!-- Header Start -->
+      <!-- Header -->
       <header-section class="container-fluid bg-primary py-5 mb-5 page-header d-block"></header-section>
-      <!-- Header End -->
     
-    
-      <!-- Search Start -->
+      <!-- Search -->
       <search-section class="container-xxl py-5"></search-section>
-      <!-- Search End -->
     
-    
-      <!-- Categories Start -->
+      <!-- Categories -->
       <categories-section class="container-xxl py-5 category" id="category"></categories-section>
-      <!-- Categories Start -->
     
-    
-      <!-- Schools Start -->
+      <!-- Popular Schools -->
       <popular-schools-section class="container-xxl py-5"></popular-schools-section>
-      <!-- Schools End -->
     
-    
-      <!-- Schools Start -->
-      <acreditated-schools-section class="container-xxl py-5"></acreditated-schools-section>
-      <!-- Schools End -->`;
+      <!-- Acreditated Schools -->
+      <acreditated-schools-section class="container-xxl py-5"></acreditated-schools-section>`;
   },
 
   async afterRender() {

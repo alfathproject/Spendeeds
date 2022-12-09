@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 import '../components/services-section';
 import '../components/about-section';
 import '../components/categories-section';
@@ -9,16 +8,18 @@ import '../components/team-section';
 import '../components/feedbacks-section';
 import 'owl.carousel/dist/assets/owl.carousel.min.css';
 import 'owl.carousel';
+import CategoryDbSource from '../../data/categorydb-source';
 import SchoolDbSource from '../../data/schooldb-source';
+import TeamDbSource from '../../data/teamdb-source';
 
 export default {
   render() {
     return `
-      <!-- Carousel Start -->
+      <!-- Carousel -->
       <div class="container-fluid p-0 mb-5">
         <div class="owl-carousel header-carousel position-relative">
           <div class="owl-carousel-item position-relative">
-            <img class="img-fluid" src="./img/carousel-1.jpg" alt="">
+            <img class="img-fluid" src="./img/carousel/carousel-1.jpg" alt="">
             <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
               <div class="container">
                 <div class="row justify-content-start">
@@ -34,7 +35,7 @@ export default {
             </div>
           </div>
           <div class="owl-carousel-item position-relative">
-            <img class="img-fluid" src="./img/carousel-2.jpg" alt="">
+            <img class="img-fluid" src="./img/carousel/carousel-2.jpg" alt="">
             <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
               <div class="container">
                 <div class="row justify-content-start">
@@ -52,50 +53,34 @@ export default {
           </div>
         </div>
       </div>
-      <!-- Carousel End -->
     
-    
-      <!-- Service Start -->
+      <!-- Service -->
       <services-section class="container-xxl py-5"></services-section>
-      <!-- Service End -->
     
-    
-      <!-- About Start -->
+      <!-- About -->
       <about-section class="container-xxl py-5" id="about"></about-section>
-      <!-- About End -->
     
-    
-      <!-- Categories Start -->
+      <!-- Categories -->
       <categories-section class="container-xxl py-5 category" id="category"></categories-section>
-      <!-- Categories Start -->
     
-    
-      <!-- Search Start -->
+      <!-- Search -->
       <search-section class="container-xxl py-5"></search-section>
-      <!-- Search End -->
     
-    
-      <!-- Schools Start -->
+      <!-- Popular Schools -->
       <popular-schools-section class="container-xxl py-5"></popular-schools-section>
-      <!-- Schools End -->
     
-    
-      <!-- Schools Start -->
+      <!-- Acreditated Schools -->
       <acreditated-schools-section class="container-xxl py-5"></acreditated-schools-section>
-      <!-- Schools End -->
     
-    
-      <!-- Team Start -->
+      <!-- Team -->
       <team-section class="container-xxl py-5"></team-section>
-      <!-- Team End -->
     
-    
-      <!-- Testimonial Start -->
-      <feedbacks-section class="container-xxl py-5 wow animate__animated animate__fadeInUp" data-wow-delay="0.1s"></feedbacks-section>
-      <!-- Testimonial End -->`;
+      <!-- Testimonial -->
+      <feedbacks-section class="container-xxl py-5 wow animate__animated animate__fadeInUp" data-wow-delay="0.1s"></feedbacks-section>`;
   },
 
   async afterRender() {
+    // Header carousel
     $('.header-carousel').owlCarousel({
       autoplay: true,
       smartSpeed: 1500,
@@ -109,6 +94,10 @@ export default {
       ],
     });
 
+    const categories = await CategoryDbSource.categories();
+    const CategoriesSection = document.querySelector('categories-section');
+    CategoriesSection.categories = categories;
+
     const popularSchools = await SchoolDbSource.popularSchools();
     const PopularSchoolsSection = document.querySelector('popular-schools-section');
     PopularSchoolsSection.schools = popularSchools;
@@ -116,5 +105,31 @@ export default {
     const acreditatedSchools = await SchoolDbSource.acreditatedSchools();
     const AcreditatedSchoolsSection = document.querySelector('acreditated-schools-section');
     AcreditatedSchoolsSection.schools = acreditatedSchools;
+
+    const team = await TeamDbSource.team();
+    const TeamSection = document.querySelector('team-section');
+    TeamSection.team = team;
+
+    // Testimonial carousel
+    $('.testimonial-carousel').owlCarousel({
+      autoplay: true,
+      smartSpeed: 1000,
+      center: true,
+      margin: 24,
+      dots: true,
+      loop: true,
+      nav: false,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        768: {
+          items: 2,
+        },
+        992: {
+          items: 3,
+        },
+      },
+    });
   },
 };

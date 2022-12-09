@@ -1,5 +1,4 @@
-[
-  {
+[{
     "npsn": 2010247,
     "nama_sekolah": "SLB C DIan Kusuma",
     "alamat": "Green Garden Blok A3 No. 14",
@@ -10,8 +9,9 @@
     "kepala_sekolah": "Yuli Siswanti",
     "telp_sekolah": "021 58302037",
     "akreditasi": "B",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20102422,
@@ -24,8 +24,9 @@
     "kepala_sekolah": "Suwandi",
     "telp_sekolah": "021 75914404",
     "akreditasi": "A",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20102737,
@@ -39,7 +40,8 @@
     "telp_sekolah": "021 7694741",
     "akreditasi": "A",
     "latitude": -6.27531,
-    "longitude": 106.797791
+    "longitude": 106.797791,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20103040,
@@ -52,8 +54,9 @@
     "kepala_sekolah": "Dra. Chairani Parinduri",
     "telp_sekolah": "021 7393721",
     "akreditasi": "Tidak Terakreditasi",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20103041,
@@ -66,8 +69,9 @@
     "kepala_sekolah": "Drs. Juanda",
     "telp_sekolah": "021 7393394",
     "akreditasi": "B",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20103053,
@@ -80,8 +84,9 @@
     "kepala_sekolah": "Iswantoro, S. Pd",
     "telp_sekolah": "021 71790839",
     "akreditasi": "A",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20103054,
@@ -94,8 +99,9 @@
     "kepala_sekolah": "Lenny E. Kotambunan, SE, MM",
     "telp_sekolah": "021 78841384",
     "akreditasi": "A",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20103056,
@@ -108,8 +114,9 @@
     "kepala_sekolah": "Drs. Mustam, M.Pd",
     "telp_sekolah": "021 7353657",
     "akreditasi": "A",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20103057,
@@ -122,8 +129,9 @@
     "kepala_sekolah": "Banban Mulyana.S>Pd",
     "telp_sekolah": "021 7342445",
     "akreditasi": "Tidak Terakreditasi",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20103058,
@@ -136,8 +144,9 @@
     "kepala_sekolah": "M. Bachrun, M.Pd",
     "telp_sekolah": "021 7341849",
     "akreditasi": "B",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20103059,
@@ -150,8 +159,9 @@
     "kepala_sekolah": "Sukimin, M.Pd",
     "telp_sekolah": "021 7988349",
     "akreditasi": "Tidak Terakreditasi",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20103061,
@@ -164,8 +174,9 @@
     "kepala_sekolah": "MUSTOFA",
     "telp_sekolah": "021 8316637",
     "akreditasi": "B",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20103062,
@@ -178,8 +189,9 @@
     "kepala_sekolah": "M. AZAM FADLOLIE",
     "telp_sekolah": "021 8295169",
     "akreditasi": "B",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20103063,
@@ -192,8 +204,9 @@
     "kepala_sekolah": "Galuh Tufani S.Pdi.",
     "telp_sekolah": "021 8294024",
     "akreditasi": "Tidak Terakreditasi",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20103066,
@@ -206,8 +219,9 @@
     "kepala_sekolah": "Masriyani",
     "telp_sekolah": "021 78840183",
     "akreditasi": "C",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20103066,
@@ -216,12 +230,13 @@
     "kelurahan": "Ragunan",
     "kecamatan": "Pasar Minggu",
     "jumlah_siswa": 0,
-    "jumlah_guru": "",
-    "kepala_sekolah": "",
-    "telp_sekolah": "",
+    "jumlah_guru": null,
+    "kepala_sekolah": null,
+    "telp_sekolah": null,
     "akreditasi": "A",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20103083,
@@ -235,7 +250,8 @@
     "telp_sekolah": "021 7668527",
     "akreditasi": "B",
     "latitude": -6.3032,
-    "longitude": 106.7985
+    "longitude": 106.7985,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20103087,
@@ -248,8 +264,9 @@
     "kepala_sekolah": "DRA. SYAM HARTATI",
     "telp_sekolah": "021 7874768",
     "akreditasi": "B",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20103089,
@@ -263,7 +280,8 @@
     "telp_sekolah": "021 78891466",
     "akreditasi": "A",
     "latitude": -6.3369,
-    "longitude": 106.832382
+    "longitude": 106.832382,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20103099,
@@ -277,7 +295,8 @@
     "telp_sekolah": "021 7657327",
     "akreditasi": "A",
     "latitude": -6.306298,
-    "longitude": 106.778519
+    "longitude": 106.778519,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20103405,
@@ -290,8 +309,9 @@
     "kepala_sekolah": "Rini Rahmawigati, S.S, S.Pd",
     "telp_sekolah": "021 8503445",
     "akreditasi": "A",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20103406,
@@ -304,8 +324,9 @@
     "kepala_sekolah": "SRI WINARSIH.S.Pd",
     "telp_sekolah": "021 86608879",
     "akreditasi": "A",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20103408,
@@ -318,8 +339,9 @@
     "kepala_sekolah": "Suradi",
     "telp_sekolah": "021 84998816",
     "akreditasi": "B",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20103432,
@@ -332,8 +354,9 @@
     "kepala_sekolah": "YUNI KUSWARTA",
     "telp_sekolah": "021 86612265",
     "akreditasi": "B",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20103433,
@@ -346,8 +369,9 @@
     "kepala_sekolah": "Budi Prasojo",
     "telp_sekolah": "021 8090407",
     "akreditasi": "Tidak Terakreditasi",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20104318,
@@ -360,8 +384,9 @@
     "kepala_sekolah": "Nunung Nurjanah, S.Pd",
     "telp_sekolah": "021 8001637",
     "akreditasi": "B",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20106233,
@@ -374,8 +399,9 @@
     "kepala_sekolah": "Nurul Mukarromah, S.Pd",
     "telp_sekolah": "021 7239778",
     "akreditasi": "B",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20106236,
@@ -389,7 +415,8 @@
     "telp_sekolah": "021 5487446",
     "akreditasi": "B",
     "latitude": -6.2169,
-    "longitude": 106.819702
+    "longitude": 106.819702,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20108947,
@@ -402,8 +429,9 @@
     "kepala_sekolah": "Drs. Binu",
     "telp_sekolah": "021 55561920",
     "akreditasi": "A",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20108948,
@@ -414,10 +442,11 @@
     "jumlah_siswa": 44,
     "jumlah_guru": 9,
     "kepala_sekolah": "Drs. Binu",
-    "telp_sekolah": "",
-    "akreditasi": "",
-    "latitude": "",
-    "longitude": ""
+    "telp_sekolah": null,
+    "akreditasi": null,
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20108949,
@@ -430,8 +459,9 @@
     "kepala_sekolah": "ANTONIUS WAGIMAN",
     "telp_sekolah": "021 5804223",
     "akreditasi": "A",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20108949,
@@ -440,12 +470,13 @@
     "kelurahan": "Kembangan Selatan",
     "kecamatan": "Kembangan",
     "jumlah_siswa": 0,
-    "jumlah_guru": "",
-    "kepala_sekolah": "",
-    "telp_sekolah": "",
-    "akreditasi": "",
-    "latitude": "",
-    "longitude": ""
+    "jumlah_guru": null,
+    "kepala_sekolah": null,
+    "telp_sekolah": null,
+    "akreditasi": null,
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20109195,
@@ -459,7 +490,8 @@
     "telp_sekolah": "021 8019076",
     "akreditasi": "B",
     "latitude": -6.254056,
-    "longitude": 106.891273
+    "longitude": 106.891273,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20109280,
@@ -472,8 +504,9 @@
     "kepala_sekolah": "Andriyastuti, M. Pd",
     "telp_sekolah": "021 85915261",
     "akreditasi": "A",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20109284,
@@ -484,10 +517,11 @@
     "jumlah_siswa": 0,
     "jumlah_guru": 9,
     "kepala_sekolah": "Wahyudiyono, S.Pd",
-    "telp_sekolah": "",
+    "telp_sekolah": null,
     "akreditasi": "Tidak Terakreditasi",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20109285,
@@ -501,7 +535,8 @@
     "telp_sekolah": "021 8625208",
     "akreditasi": "A",
     "latitude": -6.229505,
-    "longitude": 106.9189
+    "longitude": 106.9189,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20109328,
@@ -515,7 +550,8 @@
     "telp_sekolah": "021 5301741",
     "akreditasi": "A",
     "latitude": -6.1887,
-    "longitude": 106.779999
+    "longitude": 106.779999,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20109416,
@@ -529,7 +565,8 @@
     "telp_sekolah": "021 7396806",
     "akreditasi": "A",
     "latitude": -6.23572,
-    "longitude": 106.793129
+    "longitude": 106.793129,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20109425,
@@ -543,7 +580,8 @@
     "telp_sekolah": "021 7696074",
     "akreditasi": "A",
     "latitude": -6.306138,
-    "longitude": 106.778748
+    "longitude": 106.778748,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20109427,
@@ -557,7 +595,8 @@
     "telp_sekolah": "021 7696074",
     "akreditasi": "A",
     "latitude": -6.297213,
-    "longitude": 106.77916
+    "longitude": 106.77916,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20109466,
@@ -570,22 +609,24 @@
     "kepala_sekolah": "Samsi Winarni, S.Pd",
     "telp_sekolah": "021 7503660",
     "akreditasi": "A",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20109479,
     "nama_sekolah": "SLB E Handayani",
-    "alamat": "",
-    "kelurahan": "",
-    "kecamatan": "",
+    "alamat": null,
+    "kelurahan": null,
+    "kecamatan": null,
     "jumlah_siswa": 0,
     "jumlah_guru": 2,
     "kepala_sekolah": "Purwani Dwi Wulansih, S.Pd",
-    "telp_sekolah": "",
+    "telp_sekolah": null,
     "akreditasi": "Tidak Terakreditasi",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20109529,
@@ -599,7 +640,8 @@
     "telp_sekolah": "021 29541320",
     "akreditasi": "A",
     "latitude": -6.213452,
-    "longitude": 106.741753
+    "longitude": 106.741753,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20109532,
@@ -612,8 +654,9 @@
     "kepala_sekolah": "Sudarmaji",
     "telp_sekolah": "021 54366250",
     "akreditasi": "B",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20109537,
@@ -623,11 +666,12 @@
     "kecamatan": "Matraman",
     "jumlah_siswa": 20,
     "jumlah_guru": 2,
-    "kepala_sekolah": "",
+    "kepala_sekolah": null,
     "telp_sekolah": "021 85903940",
-    "akreditasi": "",
-    "latitude": "",
-    "longitude": ""
+    "akreditasi": null,
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20109549,
@@ -640,8 +684,9 @@
     "kepala_sekolah": "IIS SAYIBAH",
     "telp_sekolah": "021 64711315",
     "akreditasi": "B",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20109552,
@@ -655,7 +700,8 @@
     "telp_sekolah": "021 6333318",
     "akreditasi": "B",
     "latitude": -6.159474,
-    "longitude": 106.805351
+    "longitude": 106.805351,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20109554,
@@ -668,8 +714,9 @@
     "kepala_sekolah": "Suwarto",
     "telp_sekolah": "021 42874573",
     "akreditasi": "B",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20109970,
@@ -682,8 +729,9 @@
     "kepala_sekolah": "Sentono",
     "telp_sekolah": "021 4205324",
     "akreditasi": "A",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20110023,
@@ -696,8 +744,9 @@
     "kepala_sekolah": "Puji Maryani, S.Pd",
     "telp_sekolah": "021 90274557",
     "akreditasi": "A",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20110024,
@@ -711,7 +760,8 @@
     "telp_sekolah": "021 6540519",
     "akreditasi": "A",
     "latitude": -6.1545,
-    "longitude": 106.839996
+    "longitude": 106.839996,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20110151,
@@ -720,12 +770,13 @@
     "kelurahan": "Duri Selatan",
     "kecamatan": "Tambora",
     "jumlah_siswa": 0,
-    "jumlah_guru": "",
-    "kepala_sekolah": "",
-    "telp_sekolah": "",
-    "akreditasi": "",
-    "latitude": "",
-    "longitude": ""
+    "jumlah_guru": null,
+    "kepala_sekolah": null,
+    "telp_sekolah": null,
+    "akreditasi": null,
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20110154,
@@ -734,12 +785,13 @@
     "kelurahan": "Menteng",
     "kecamatan": "Menteng",
     "jumlah_siswa": 0,
-    "jumlah_guru": "",
-    "kepala_sekolah": "",
-    "telp_sekolah": "",
+    "jumlah_guru": null,
+    "kepala_sekolah": null,
+    "telp_sekolah": null,
     "akreditasi": "Tidak Terakreditasi",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20110240,
@@ -750,10 +802,11 @@
     "jumlah_siswa": 43,
     "jumlah_guru": 10,
     "kepala_sekolah": "Silvia Wahono",
-    "telp_sekolah": "",
-    "akreditasi": "",
-    "latitude": "",
-    "longitude": ""
+    "telp_sekolah": null,
+    "akreditasi": null,
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20110268,
@@ -766,8 +819,9 @@
     "kepala_sekolah": "SUSI TURSIAWATY AS, S.Pd",
     "telp_sekolah": "021 4892988",
     "akreditasi": "B",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20110274,
@@ -781,7 +835,8 @@
     "telp_sekolah": "021 47860416",
     "akreditasi": "Tidak Terakreditasi",
     "latitude": -6.2102,
-    "longitude": 106.879501
+    "longitude": 106.879501,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20110334,
@@ -794,8 +849,9 @@
     "kepala_sekolah": "HJ. ROSLINA",
     "telp_sekolah": "021 4715852",
     "akreditasi": "Tidak Terakreditasi",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20110336,
@@ -808,8 +864,9 @@
     "kepala_sekolah": "Fitri Anjarsari, S.Pd",
     "telp_sekolah": "021 8441313",
     "akreditasi": "A",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20110817,
@@ -822,8 +879,9 @@
     "kepala_sekolah": "IWAN ROHMAN",
     "telp_sekolah": "021 4350911",
     "akreditasi": "B",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20110818,
@@ -834,10 +892,11 @@
     "jumlah_siswa": 42,
     "jumlah_guru": 7,
     "kepala_sekolah": "Titin Darwati",
-    "telp_sekolah": "",
+    "telp_sekolah": null,
     "akreditasi": "Tidak Terakreditasi",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20110819,
@@ -848,10 +907,11 @@
     "jumlah_siswa": 37,
     "jumlah_guru": 5,
     "kepala_sekolah": "Ade Solih",
-    "telp_sekolah": "",
+    "telp_sekolah": null,
     "akreditasi": "B",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20110820,
@@ -865,7 +925,8 @@
     "telp_sekolah": "021 4359972",
     "akreditasi": "A",
     "latitude": -6.1286,
-    "longitude": 106.885498
+    "longitude": 106.885498,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20110821,
@@ -879,7 +940,8 @@
     "telp_sekolah": "021 43934727",
     "akreditasi": "A",
     "latitude": -6.13363,
-    "longitude": 106.906868
+    "longitude": 106.906868,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20112274,
@@ -892,8 +954,9 @@
     "kepala_sekolah": "Drs. ASEP DAHLAN, MM",
     "telp_sekolah": "021 86908703",
     "akreditasi": "B",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20112403,
@@ -906,8 +969,9 @@
     "kepala_sekolah": "Dra. EKA PRAPTI, MM",
     "telp_sekolah": "021 5349282",
     "akreditasi": "A",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20112472,
@@ -920,8 +984,9 @@
     "kepala_sekolah": "HERU PURWANTAKA",
     "telp_sekolah": "021 4213734",
     "akreditasi": "B",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20178285,
@@ -930,12 +995,13 @@
     "kelurahan": "Pulo Gebang",
     "kecamatan": "Cakung",
     "jumlah_siswa": 64,
-    "jumlah_guru": "",
-    "kepala_sekolah": "",
-    "telp_sekolah": "",
+    "jumlah_guru": null,
+    "kepala_sekolah": null,
+    "telp_sekolah": null,
     "akreditasi": "Tidak Terakreditasi",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 20218361,
@@ -948,8 +1014,9 @@
     "kepala_sekolah": "DARYANTO",
     "telp_sekolah": "021 8463776",
     "akreditasi": "B",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 69755838,
@@ -962,8 +1029,9 @@
     "kepala_sekolah": "Drs.ERWIN MASKUR",
     "telp_sekolah": "021 8400011",
     "akreditasi": "A",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 69755839,
@@ -976,8 +1044,9 @@
     "kepala_sekolah": "HARI CAHYONO, S.Pd",
     "telp_sekolah": "021 84100011",
     "akreditasi": "B",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 69756904,
@@ -990,8 +1059,9 @@
     "kepala_sekolah": "Yetti Rachmawati",
     "telp_sekolah": "021 5323606",
     "akreditasi": "A",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 69756905,
@@ -1004,8 +1074,9 @@
     "kepala_sekolah": "indrianto",
     "telp_sekolah": "021 5606834",
     "akreditasi": "B",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 69757216,
@@ -1019,7 +1090,8 @@
     "telp_sekolah": "021 4359972",
     "akreditasi": "A",
     "latitude": -6.1286,
-    "longitude": 106.885498
+    "longitude": 106.885498,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 69758113,
@@ -1030,10 +1102,11 @@
     "jumlah_siswa": 36,
     "jumlah_guru": 8,
     "kepala_sekolah": "Sumadi, S.Pd",
-    "telp_sekolah": "",
-    "akreditasi": "",
-    "latitude": "",
-    "longitude": ""
+    "telp_sekolah": null,
+    "akreditasi": null,
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 69758126,
@@ -1046,8 +1119,9 @@
     "kepala_sekolah": "Febrina Sampepayung",
     "telp_sekolah": "021 53672989",
     "akreditasi": "Tidak Terakreditasi",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 69759296,
@@ -1061,7 +1135,8 @@
     "telp_sekolah": "021 7807313",
     "akreditasi": "Tidak Terakreditasi",
     "latitude": -6.2993,
-    "longitude": 106.837898
+    "longitude": 106.837898,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 69762617,
@@ -1070,12 +1145,13 @@
     "kelurahan": "Jati Padang",
     "kecamatan": "Pasar Minggu",
     "jumlah_siswa": 0,
-    "jumlah_guru": "",
-    "kepala_sekolah": "",
-    "telp_sekolah": "",
+    "jumlah_guru": null,
+    "kepala_sekolah": null,
+    "telp_sekolah": null,
     "akreditasi": "Tidak Terakreditasi",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 69764532,
@@ -1088,8 +1164,9 @@
     "kepala_sekolah": "Sri Utami A.M Soedarsono",
     "telp_sekolah": "021 8410081",
     "akreditasi": "A",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 69766211,
@@ -1103,7 +1180,8 @@
     "telp_sekolah": "021 58905934",
     "akreditasi": "A",
     "latitude": -6.1715,
-    "longitude": 106.838501
+    "longitude": 106.838501,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 69872299,
@@ -1117,7 +1195,8 @@
     "telp_sekolah": "021 3140047",
     "akreditasi": "A",
     "latitude": -6.188939,
-    "longitude": 106.844292
+    "longitude": 106.844292,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 69872300,
@@ -1128,10 +1207,11 @@
     "jumlah_siswa": 12,
     "jumlah_guru": 9,
     "kepala_sekolah": "Dra. Endang Hersilowaati",
-    "telp_sekolah": "",
+    "telp_sekolah": null,
     "akreditasi": "Tidak Terakreditasi",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 69892372,
@@ -1144,8 +1224,9 @@
     "kepala_sekolah": "Magdalena Hutabarat",
     "telp_sekolah": "021 5483942",
     "akreditasi": "Tidak Terakreditasi",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 69900890,
@@ -1158,8 +1239,9 @@
     "kepala_sekolah": "AYI RUSTIKA S.Pd",
     "telp_sekolah": "021 5418978",
     "akreditasi": "Tidak Terakreditasi",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
     "npsn": 90109004,
@@ -1172,11 +1254,12 @@
     "kepala_sekolah": "Sunarti, S.Pd, M.Si",
     "telp_sekolah": "021 8001637",
     "akreditasi": "B",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
-    "npsn": "",
+    "npsn": null,
     "nama_sekolah": "PLB Nusantara",
     "alamat": "Jalan SMP 211 No.12",
     "kelurahan": "Srengseng Sawah",
@@ -1187,10 +1270,11 @@
     "telp_sekolah": "021 78885475",
     "akreditasi": "Tidak Terakreditasi",
     "latitude": -6.352569,
-    "longitude": 106.824799
+    "longitude": 106.824799,
+    "id_kategori": [1, 2]
   },
   {
-    "npsn": "",
+    "npsn": null,
     "nama_sekolah": "SDLB C Tri Asih II",
     "alamat": "Jl. Karmel Raya No. 2",
     "kelurahan": "Kebon Jeruk",
@@ -1201,10 +1285,11 @@
     "telp_sekolah": "021 5301741",
     "akreditasi": "A",
     "latitude": -6.1887,
-    "longitude": 106.779999
+    "longitude": 106.779999,
+    "id_kategori": [1, 2]
   },
   {
-    "npsn": "",
+    "npsn": null,
     "nama_sekolah": "SLB BC Arrahman",
     "alamat": "Jl. DR. Saharjo No. 100",
     "kelurahan": "Setia Budi",
@@ -1214,25 +1299,27 @@
     "kepala_sekolah": "PARTO",
     "telp_sekolah": "021 8304856",
     "akreditasi": "A",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
-    "npsn": "",
+    "npsn": null,
     "nama_sekolah": "SDLB Sarana Terpadu",
     "alamat": "JL. KAHFI I",
     "kelurahan": "Jati Padang",
     "kecamatan": "Pasar Minggu",
     "jumlah_siswa": 0,
-    "jumlah_guru": "",
-    "kepala_sekolah": "",
-    "telp_sekolah": "",
+    "jumlah_guru": null,
+    "kepala_sekolah": null,
+    "telp_sekolah": null,
     "akreditasi": "A",
-    "latitude": "",
-    "longitude": ""
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
-    "npsn": "",
+    "npsn": null,
     "nama_sekolah": "SDLB Bhakti Luhur",
     "alamat": "Jl. Merak II Blok N3/39 Sektor I",
     "kelurahan": "Bintaro",
@@ -1240,23 +1327,25 @@
     "jumlah_siswa": 0,
     "jumlah_guru": 14,
     "kepala_sekolah": "Sr. Cicilia Rukiyah, S.Pd",
-    "telp_sekolah": "",
-    "akreditasi": "",
-    "latitude": "",
-    "longitude": ""
+    "telp_sekolah": null,
+    "akreditasi": null,
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   },
   {
-    "npsn": "",
+    "npsn": null,
     "nama_sekolah": "SLB Kusumo Asih",
     "alamat": "JL. RAYA PENGGILINGAN NO.137",
-    "kelurahan": "",
-    "kecamatan": "",
+    "kelurahan": null,
+    "kecamatan": null,
     "jumlah_siswa": 39,
     "jumlah_guru": 6,
     "kepala_sekolah": "Tri Jaka Susila, S.Pd.",
-    "telp_sekolah": "",
-    "akreditasi": "",
-    "latitude": "",
-    "longitude": ""
+    "telp_sekolah": null,
+    "akreditasi": null,
+    "latitude": null,
+    "longitude": null,
+    "id_kategori": [1, 2]
   }
 ]

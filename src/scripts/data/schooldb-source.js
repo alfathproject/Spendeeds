@@ -1,62 +1,95 @@
-// import API_ENDPOINT from '../globals/api-endpoint';
+import _ from 'lodash';
 import data from './data.json';
-import datareviews from './reviews-data.json';
-import config from '../globals/config';
+import reviews from './review.json';
 
 class SchoolDbSource {
   static async schools() {
-    return data;
+    return data.sort((a, b) => b.jumlah_siswa - a.jumlah_siswa);
   }
 
   static async popularSchools() {
-    const filteredSchools = data.sort((a, b) => b.jumlah_siswa - a.jumlah_siswa);
-    return filteredSchools.filter((school) => school.jumlah_siswa >= 200).slice(0, 3);
+    const schools = await this.schools();
+    return schools.filter((school) => school.jumlah_siswa >= 200).slice(0, 3);
+  }
+
+  static async allPopularSchools() {
+    const schools = await this.schools();
+    return schools.filter((school) => school.jumlah_siswa >= 200);
   }
 
   static async acreditatedSchools() {
-    const filteredSchools = data.sort((a, b) => b.jumlah_siswa - a.jumlah_siswa);
-    return filteredSchools.filter((school) => school.akreditasi === 'A').slice(0, 6);
+    const schools = await this.schools();
+    return schools.filter((school) => school.akreditasi === 'A').slice(0, 6);
+  }
+
+  static async allAcreditatedSchools() {
+    const schools = await this.schools();
+    return schools.filter((school) => school.akreditasi === 'A');
   }
 
   static async detail(npsn) {
-    return data.filter((school) => Number(school.npsn) === Number(npsn));
+    const school = data.filter((item) => Number(item.npsn) === Number(npsn));
+    const schoolReviews = reviews.filter((item) => Number(item.npsn) === Number(npsn));
+    return { school, schoolReviews };
+  }
+
+  static async search(query) {
+    const keywords = query.query.length ? query.query : null;
+    const npsn = query.npsn.length ? query.npsn : null;
+    const schoolname = query.schoolname.length ? query.schoolname : null;
+    const location = query.location.length ? query.location : null;
+    const akreditasi = query.akreditasi !== 'all' ? query.akreditasi : null;
+
+    return _.filter(
+      data,
+      (school) => (school.npsn
+        ? school.npsn.toString().includes(npsn || keywords)
+        : school.npsn)
+        || (school.nama_sekolah
+          ? school.nama_sekolah
+            .toString()
+            .toLowerCase()
+            .includes(schoolname || keywords)
+          : school.nama_sekolah)
+        || (school.alamat
+          ? school.alamat
+            .toString()
+            .toLowerCase()
+            .includes(location || keywords)
+          : school.alamat)
+        || (school.kelurahan
+          ? school.kelurahan
+            .toString()
+            .toLowerCase()
+            .includes(location || keywords)
+          : school.kelurahan)
+        || (school.kecamatan
+          ? school.kecamatan
+            .toString()
+            .toLowerCase()
+            .includes(location || keywords)
+          : school.kecamatan)
+        || (school.akreditasi
+          ? school.akreditasi.toString().toLowerCase().includes(akreditasi)
+          : school.akreditasi),
+    ).sort((a, b) => b.jumlah_siswa - a.jumlah_siswa);
   }
 
   static async categorized(category) {
-    return data.filter((school) => school.kecamatan.charAt(0).toLowerCase() === category);
+    return data.filter(
+      (school) => school.kecamatan.charAt(0).toLowerCase() === category,
+    );
   }
 
   // random image review generator
-  static async randomImageReview(id) {
-    const datareview = datareviews.filter((review) => Number(review.id_review) === Number(id));
-    const random = Math.floor(Math.random() * 37);
-    const configimg = config.BASE_CATEGORY_IMAGE_URL(`cat-${random}.jpg`);
-    datareview.gambar = configimg;
-    return datareview;
-  }
-
-  // static async list() {
-  //   const response = await fetch(API_ENDPOINT.LIST);
-  //   const responseJson = await response.json();
-  //   return responseJson.schools;
-  // }
-
-  // static async detailSchool(id) {
-  //   const response = await fetch(API_ENDPOINT.DETAIL(id));
-  //   const responseJson = await response.json();
-  //   return responseJson.school;
-  // }
-
-  // static async addReview(data) {
-  //   const response = await fetch(API_ENDPOINT.REVIEW, {
-  //     method: 'POST',
-  //     headers: {
-  //       'Content-Type': 'application/json',
-  //     },
-  //     body: JSON.stringify(data),
-  //   });
-  //   const responseJson = await response.json();
-  //   return responseJson.customerReviews;
+  // static async randomImageReview(id) {
+  //   const datareview = reviews.filter(
+  //     (review) => Number(review.id_review) === Number(id),
+  //   );
+  //   const random = Math.floor(Math.random() * 37);
+  //   const configimg = `../../public/categoryimg/cat-${random}.jpg`;
+  //   datareview.gambar = configimg;
+  //   return datareview;
   // }
 }
 

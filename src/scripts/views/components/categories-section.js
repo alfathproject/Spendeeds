@@ -1,10 +1,24 @@
 class CategoriesSection extends HTMLElement {
-  connectedCallback() {
-    this.render();
-  }
-
+  /**
+   * @param {any} schools
+   */
   set categories(categories) {
-    this._categories = categories;
+    this._id1 = categories[0].id;
+    this._kategori1 = categories[0].kategori;
+    this._gambar1 = categories[0].gambar;
+
+    this._id2 = categories[1].id;
+    this._kategori2 = categories[1].kategori;
+    this._gambar2 = categories[1].gambar;
+
+    this._id3 = categories[2].id;
+    this._kategori3 = categories[2].kategori;
+    this._gambar3 = categories[2].gambar;
+
+    this._id4 = categories[3].id;
+    this._kategori4 = categories[3].kategori;
+    this._gambar4 = categories[3].gambar;
+
     this.render();
   }
 
@@ -19,40 +33,38 @@ class CategoriesSection extends HTMLElement {
           <div class="col-lg-7 col-md-6">
             <div class="row g-3">
               <div class="col-lg-12 col-md-12 wow animate__animated animate__zoomIn" data-wow-delay="0.1s">
-                <a href="/#/acreditated" class="position-relative d-block overflow-hidden" href="/#/">
-                  <img class="img-fluid" src="./img/cat-1.jpg" alt="">
-                  <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
-                    <h5 class="m-0">Acreditated</h5>
-                    <small class="text-primary">${this._categories.acreditatedSchoolsNumber}</small>
+                <a class="position-relative d-block overflow-hidden" href="/#/category/${this._id1}">
+                  <img class="img-fluid" src="./img/categories/${this._gambar1}" alt="Kategori ${this._kategori1}">
+                  <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1rem;">
+                    <h5 class="mb-0">${this._kategori1}</h5>
                   </div>
                 </a>
               </div>
               <div class="col-lg-6 col-md-12 wow animate__animated animate__zoomIn" data-wow-delay="0.3s">
-                <a href="/#/popular" class="position-relative d-block overflow-hidden" href="/#/">
-                  <img class="img-fluid" src="./img/cat-2.jpg" alt="">
-                  <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
-                    <h5 class="m-0">Most Popular</h5>
-                    <small class="text-primary">${this._categories.popularSchoolsNumber}</small>
+                <a class="position-relative d-block overflow-hidden" href="/#/category/${this._id2}">
+                  <img class="img-fluid" src="./img/categories/cat-1.jpg" alt="Kategori ${this._kategori2}">
+                  <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1rem;">
+                    <h5 class="mb-0">${this._kategori2}</h5>
                   </div>
                 </a>
               </div>
               <div class="col-lg-6 col-md-12 wow animate__animated animate__zoomIn" data-wow-delay="0.5s">
-                <a href="/#/category/C" class="position-relative d-block overflow-hidden" href="/#/">
-                  <img class="img-fluid" src="./img/cat-3.jpg" alt="">
-                  <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
-                    <h5 class="m-0">In West Jakarta</h5>
-                    <small class="text-primary">C</small>
+                <a class="position-relative d-block overflow-hidden" href="/#/category/${this._id3}">
+                  <img class="img-fluid" src="./img/categories/cat-1.jpg" alt="Kategori ${this._kategori3}">
+                  <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1rem;">
+                    <h5 class="mb-0">${this._kategori3}</h5>
                   </div>
                 </a>
               </div>
             </div>
           </div>
-          <div class="col-lg-5 col-md-6 wow animate__animated animate__zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
-            <a href="/#/category/P" class="position-relative d-block h-100 overflow-hidden" href="/#/">
-              <img class="img-fluid position-absolute w-100 h-100" src="./img/cat-4.jpg" alt="" style="object-fit: cover;">
-              <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin:  1px;">
-                <h5 class="m-0">In South Jakarta</h5>
-                <small class="text-primary">P</small>
+          <div class="col-lg-5 col-md-6 wow animate__animated animate__zoomIn" data-wow-delay="0.7s"
+            style="min-height: 350px;">
+            <a class="position-relative d-block h-100 overflow-hidden" href="/#/category/${this._id4}">
+              <img class="img-fluid position-absolute w-100 h-100" src="./img/categories/cat-1.jpg"
+                alt="Kategori ${this._kategori4}" style="object-fit: cover;">
+              <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin:  1rem;">
+                <h5 class="mb-0">${this._kategori4}</h5>
               </div>
             </a>
           </div>

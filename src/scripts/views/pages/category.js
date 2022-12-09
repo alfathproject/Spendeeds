@@ -8,25 +8,11 @@ import UrlParser from '../../routes/url-parser';
 export default {
   async render() {
     return `
-      <!-- Header Start -->
+      <!-- Header -->
       <header-section class="container-fluid bg-primary py-5 mb-5 page-header d-block"></header-section>
-      <!-- Header End -->
-    
-    
-      <!-- Search Start -->
-      <search-section class="container-xxl py-5"></search-section>
-      <!-- Search End -->
 
-
-      <!-- Schools Start -->
-      <categorized-schools-section class="container-xxl py-5"></categorized-schools-section>
-      <!-- Schools End -->
-
-
-      <!-- Categories Start -->
-      <categorized-section class="container-xxl py-5 category" id="category"></categorized-section>
-      <!-- Categories Start -->
-      `;
+      <!-- Schools -->
+      <categorized-schools-section class="container-xxl py-5"></categorized-schools-section>`;
   },
 
   async afterRender() {

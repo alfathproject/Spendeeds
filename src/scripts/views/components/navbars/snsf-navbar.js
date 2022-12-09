@@ -1,10 +1,10 @@
 class NavBar extends HTMLElement {
-    connectedCallback() {
-        this.render();
-    }
+  connectedCallback() {
+    this.render();
+  }
 
-    render() {
-        this.innerHTML = `
+  render() {
+    this.innerHTML = `
             <div class="navbar-collapse" id="navbarNavAltMarkup">
                 <a class="navbar-brand" href="">
                     <img src="./images/inclusive.png" alt="Logo App bar" width="50" height="50">
@@ -17,7 +17,7 @@ class NavBar extends HTMLElement {
                 </ul>
             </div>
         `;
-    }
+  }
 }
 
-customElements.define("nav-bar", NavBar);
+customElements.define('nav-bar', NavBar);

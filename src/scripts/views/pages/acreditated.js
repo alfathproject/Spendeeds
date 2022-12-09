@@ -1,18 +1,16 @@
 import '../components/header-section';
 import '../components/search-section';
-import '../components/acreditated-schools';
+import '../components/acreditated-schools-section';
 import SchoolDbSource from '../../data/schooldb-source';
 
 export default {
   render() {
     return `
-      <!-- Header Start -->
+      <!-- Header -->
       <header-section class="container-fluid bg-primary py-5 mb-5 page-header d-block"></header-section>
-      <!-- Header End -->
     
-      <!-- Schools Start -->
-      <acreditated-schools class="container-xxl py-5"></acreditated-schools>
-      <!-- Schools End -->`;
+      <!-- Acreditated Schools -->
+      <acreditated-schools class="container-xxl py-5"></acreditated-schools-section>`;
   },
 
   async afterRender() {
@@ -22,8 +20,8 @@ export default {
       page: 'Acreditated',
     };
 
-    const popularSchools = await SchoolDbSource.popularSchools();
-    const PopularSchoolsSection = document.querySelector('acreditated-schools');
-    PopularSchoolsSection.schools = popularSchools;
+    const acreditatedSchools = await SchoolDbSource.allAcreditatedSchools();
+    const acreditatedSchoolsSection = document.querySelector('acreditated-schools');
+    acreditatedSchoolsSection.schools = acreditatedSchools;
   },
 };

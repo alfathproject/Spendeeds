@@ -1,5 +1,11 @@
-/* eslint-disable no-undef */
 import Swal from 'sweetalert2';
+
+const createLoaderTemplate = () => `
+  <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div class="spinner-border text-warning" style="width: 3rem; height: 3rem;" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>`;
 
 const createFavoriteSchoolButtonTemplate = () => `
   <button aria-label="Add to Favorite" class="btn btn-lg btn-primary btn-lg-square" id="favoriteButton"><i class="bi bi-heart"></i></button>`;
@@ -32,6 +38,7 @@ const createAlertTemplate = {
 };
 
 export {
+  createLoaderTemplate,
   createFavoriteSchoolButtonTemplate,
   createUnfavoriteSchoolButtonTemplate,
   createAlertTemplate,

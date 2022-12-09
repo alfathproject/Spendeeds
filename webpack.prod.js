@@ -8,7 +8,7 @@ const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const common = require('./webpack.common');
 
 module.exports = merge(common, {
-  mode: 'development',
+  mode: 'production',
   devtool: 'source-map',
   module: {
     rules: [

@@ -6,19 +6,14 @@ import FavoriteSchoolIdb from '../../data/favorite-school-idb';
 export default {
   async render() {
     return `
-      <!-- Header Start -->
+      <!-- Header -->
       <header-section class="container-fluid bg-primary py-5 mb-5 page-header d-block"></header-section>
-      <!-- Header End -->
     
-    
-      <!-- Search Start -->
+      <!-- Search -->
       <search-section class="container-xxl py-5"></search-section>
-      <!-- Search End -->
     
-    
-      <!-- Schools Start -->
-      <favorited-schools-section class="container-xxl py-5"></favorited-schools-section>
-      <!-- Schools End -->`;
+      <!-- Schools -->
+      <favorited-schools-section class="container-xxl py-5"></favorited-schools-section>`;
   },
 
   async afterRender() {

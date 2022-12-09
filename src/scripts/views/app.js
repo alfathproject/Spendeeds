@@ -1,5 +1,7 @@
 import UrlParser from '../routes/url-parser';
 import routes from '../routes/routes';
+import '../utils/shell-initiator';
+import { createLoaderTemplate } from './templates/template-creator';
 
 class App {
   constructor({ content }) {
@@ -7,7 +9,12 @@ class App {
   }
 
   async renderPage() {
-    const url = UrlParser.parseActiveUrlWithCombiner();
+    this._content.innerHTML = createLoaderTemplate;
+
+    let url = UrlParser.parseActiveUrlWithCombiner();
+
+    if (url.split('?').length > 1) url = UrlParser.parseActiveUrlWithQuery();
+
     if (url !== '/skipContent') {
       const page = routes[url];
 

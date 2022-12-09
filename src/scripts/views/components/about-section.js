@@ -9,7 +9,7 @@ class AboutSection extends HTMLElement {
         <div class="row g-5">
           <div class="col-lg-6 wow animate__animated animate__fadeInLeft" data-wow-delay="0.1s" style="min-height: 400px;">
             <div class="position-relative h-100">
-              <img class="img-fluid position-absolute w-100 h-100" src="./img/about.jpg" alt="" style="object-fit: cover;">
+              <img class="img-fluid position-absolute w-100 h-100" src="./img/spendeeds/about.jpg" alt="Gambar Perusahaan" style="object-fit: cover;">
             </div>
           </div>
           <div class="col-lg-6 wow animate__animated animate__fadeInRight" data-wow-delay="0.3s">

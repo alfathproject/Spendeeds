@@ -1,12 +1,10 @@
 export default {
   render() {
     return `
-      <!-- Header Start -->
+      <!-- Header -->
       <header-section class="container-fluid bg-primary py-5 mb-5 page-header d-block"></header-section>
-      <!-- Header End -->
 
-
-      <!-- Contact Start -->
+      <!-- Contact -->
       <div class="container-xxl py-5">
         <div class="container">
           <div class="text-center wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
@@ -83,8 +81,7 @@ export default {
             </div>
           </div>
         </div>
-      </div>
-      <!-- Contact End -->`;
+      </div>`;
   },
 
   async afterRender() {
