@@ -30,8 +30,10 @@ class ReviewItem extends HTMLElement {
       <div class="card mt-3">
         <div class="card-body">
           <blockquote class="blockquote mb-0">
-            <p>${this._komentar}</p>
-            <footer class="small blockquote-footer mt-1"><i class="bi bi-person"></i> <strong class="me-2">${this._nama}</strong> <small><i class="bi bi-calendar2-day fs-6"></i> ${this._tanggal}</small></footer>
+            <p class="fs-5">${this._komentar}</p>
+            <footer class="small blockquote-footer mt-2">
+              <i class="bi bi-person-circle me-1"></i> <strong class="me-3">${this._nama.toUpperCase()}</strong>
+              <i class="bi bi-calendar2-day me-1"></i> ${this._tanggal}</footer>
           </blockquote>
         </div>
       </div>`;

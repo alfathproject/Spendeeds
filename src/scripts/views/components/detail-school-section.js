@@ -26,7 +26,7 @@ class DetailSchoolSection extends HTMLElement {
               <i class="bi bi-people-fill text-primary ms-4 me-2"></i>${this._school.jumlah_siswa || '-'} Siswa
               <i class="bi bi-people-fill text-primary ms-4 me-2"></i>${this._school.jumlah_guru || '-'} Guru
             </p>
-            <p class="mb-4"><i class="bi bi-geo-alt-fill text-primary me-2"></i>${(this._kelurahan || this._kecamatan) ? `${this._kelurahan}, ${this._kecamatan}` : '-'}</p>
+            <p class="mb-4"><i class="bi bi-geo-alt-fill text-primary me-2"></i>${(this._school.kelurahan || this._school.kecamatan) ? `${this._school.kelurahan}, ${this._school.kecamatan}` : '-'}</p>
             <h5>Informasi Lengkap</h5>
             <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur deserunt molestiae ipsum, eos vel recusandae animi omnis maiores architecto possimus, quae placeat sint rem ad..</p>
             <div class="row">

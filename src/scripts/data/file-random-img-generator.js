@@ -1,3 +1,4 @@
+/* eslint-disable max-len, no-param-reassign */
 /*
   This file is used to generate random image for each school
   run this file using node file-random-img-generator.js or

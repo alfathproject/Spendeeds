@@ -26,7 +26,7 @@ class SchoolList extends HTMLElement {
           'animate__animated',
           'animate__fadeInUp',
         );
-        schoolItem.setAttribute('data-wow-delay', `${(i + 10) / 20}s`);
+        schoolItem.setAttribute('data-wow-delay', `${(i + 10) / 30}s`);
 
         this.appendChild(schoolItem);
       });

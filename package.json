@@ -9,16 +9,16 @@
     "build": "webpack --config webpack.prod.js",
     "serve": "http-server dist",
     "build-serve": "webpack --config webpack.prod.js && http-server dist",
-    "lint": "eslint src/scripts",
-    "lint-fix": "eslint src/scripts --fix"
+    "lint": "eslint --ignore-path .gitignore ./",
+    "lint-fix": "eslint --ignore-path .gitignore --fix ./"
   },
   "keywords": [],
   "author": "@icalbalino, @fatha_dillah, @mutiarasars, @ranggamyd",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alfathproject/SN-SchoolFinder/issues"
+    "url": "https://github.com/alfathproject/Spendeeds/issues"
   },
-  "homepage": "https://github.com/alfathproject/SN-SchoolFinder#readme",
+  "homepage": "https://github.com/alfathproject/Spendeeds#readme",
   "devDependencies": {
     "@babel/core": "^7.20.5",
     "@babel/preset-env": "^7.20.2",

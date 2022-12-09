@@ -42,7 +42,7 @@ class CategoriesSection extends HTMLElement {
               </div>
               <div class="col-lg-6 col-md-12 wow animate__animated animate__zoomIn" data-wow-delay="0.3s">
                 <a class="position-relative d-block overflow-hidden" href="/#/category/${this._id2}">
-                  <img class="img-fluid" src="./img/categories/cat-1.jpg" alt="Kategori ${this._kategori2}">
+                  <img class="img-fluid" src="./img/categories/${this._gambar2}" alt="Kategori ${this._kategori2}">
                   <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1rem;">
                     <h5 class="mb-0">${this._kategori2}</h5>
                   </div>
@@ -50,7 +50,7 @@ class CategoriesSection extends HTMLElement {
               </div>
               <div class="col-lg-6 col-md-12 wow animate__animated animate__zoomIn" data-wow-delay="0.5s">
                 <a class="position-relative d-block overflow-hidden" href="/#/category/${this._id3}">
-                  <img class="img-fluid" src="./img/categories/cat-1.jpg" alt="Kategori ${this._kategori3}">
+                  <img class="img-fluid" src="./img/categories/${this._gambar3}" alt="Kategori ${this._kategori3}">
                   <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1rem;">
                     <h5 class="mb-0">${this._kategori3}</h5>
                   </div>
@@ -61,8 +61,7 @@ class CategoriesSection extends HTMLElement {
           <div class="col-lg-5 col-md-6 wow animate__animated animate__zoomIn" data-wow-delay="0.7s"
             style="min-height: 350px;">
             <a class="position-relative d-block h-100 overflow-hidden" href="/#/category/${this._id4}">
-              <img class="img-fluid position-absolute w-100 h-100" src="./img/categories/cat-1.jpg"
-                alt="Kategori ${this._kategori4}" style="object-fit: cover;">
+              <img class="img-fluid position-absolute w-100 h-100" src="./img/categories/${this._gambar4}" alt="Kategori ${this._kategori4}" style="object-fit: cover;">
               <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin:  1rem;">
                 <h5 class="mb-0">${this._kategori4}</h5>
               </div>

@@ -20,7 +20,7 @@ class SchoolItem extends HTMLElement {
         </div>
         <div class="text-center p-4 pb-0">
           <a href="/#/detail/${this._school.npsn}" class="h4 d-block mb-3 text-truncate" title="${this._school.nama_sekolah}">${this._school.nama_sekolah}</a>
-          <a href="/#/location/${this._school.kecamatan}" class="h6 d-block mb-4"><i class="bi bi-geo-alt text-danger me-2"></i>${this._school.kelurahan}, ${this._school.kecamatan}</a>
+          <div class="d-block mb-4"><i class="bi bi-geo-alt text-danger me-2"></i><a href="/#/location/${this._school.kelurahan}" class="h6">${this._school.kelurahan}</a>, <a href="/#/location/${this._school.kecamatan}" class="h6">${this._school.kecamatan}</a></div>
         </div>
         <div class="d-flex border-top">
           <small class="flex-fill text-center border-end p-2 text-truncate" title="${this._school.kepala_sekolah}"><i class="bi bi-person-fill-check text-primary me-2"></i>${this._school.kepala_sekolah}</small>
