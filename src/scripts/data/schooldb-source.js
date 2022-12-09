@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import _ from 'lodash';
 import data from './data.json';
 import datacategories from './category-data.json';
@@ -28,9 +29,28 @@ class SchoolDbSource {
     return schools.filter((school) => school.akreditasi === 'A');
   }
 
+  static async akreditasi(akreditasi) {
+    return _.filter(data, (item) => (item.akreditasi
+      ? item.akreditasi.toString().toLowerCase() === akreditasi
+      : item.akreditasi));
+  }
+
+  static async location(location) {
+    return data.filter(
+      (item) => (item.kecamatan
+        ? item.kecamatan.toString().toLowerCase() === location
+        : item.kecamatan)
+        || (item.kelurahan
+          ? item.kelurahan.toString().toLowerCase() === location
+          : item.kelurahan),
+    );
+  }
+
   static async detail(npsn) {
     const school = data.filter((item) => Number(item.npsn) === Number(npsn));
-    const schoolReviews = reviews.filter((item) => Number(item.npsn) === Number(npsn));
+    const schoolReviews = reviews.filter(
+      (item) => Number(item.npsn) === Number(npsn),
+    );
     return { school, schoolReviews };
   }
 
@@ -85,7 +105,7 @@ class SchoolDbSource {
     return data.filter(
       (school) => school.kecamatan.charAt(0).toLowerCase() === category,
     );
-    return datacategories.filter((school) => school.kecamatan.charAt(0).toLowerCase() === category);
+    // return datacategories.filter((school) => school.kecamatan.charAt(0).toLowerCase() === category);
   }
 
   // random image review generator
