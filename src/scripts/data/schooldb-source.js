@@ -1,5 +1,6 @@
 import _ from 'lodash';
 import data from './data.json';
+import datacategories from './category-data.json';
 import reviews from './review.json';
 
 class SchoolDbSource {
@@ -75,10 +76,16 @@ class SchoolDbSource {
     ).sort((a, b) => b.jumlah_siswa - a.jumlah_siswa);
   }
 
+  // category data
+  static async category() {
+    return datacategories;
+  }
+
   static async categorized(category) {
     return data.filter(
       (school) => school.kecamatan.charAt(0).toLowerCase() === category,
     );
+    return datacategories.filter((school) => school.kecamatan.charAt(0).toLowerCase() === category);
   }
 
   // random image review generator

@@ -23,6 +23,31 @@ class TeamSection extends HTMLElement {
     const teamList = document.querySelector('#teamList');
     teamList.team = this._team;
   }
+
+  async afterRender(){
+    const team = await teamSource.team();
+    const teamList = document.querySelector('#team-list');
+    const delayCounter = (i) => i + 0.2;
+    let i = 0.1;
+    team.forEach((member)=>{
+      const teamItem = document.createElement('team-item');
+      teamItem.team = member;
+
+      teamItem.classList.add(
+        'col-lg-3',
+        'col-md-6',
+        'wow',
+        'animate__animated',
+        'animate__fadeInUp',
+      );
+
+      teamItem.setAttribute('data-wow-delay', `${i}s`);
+
+      delayCounter(i);
+
+      teamList.appendChild(teamItem);
+    })
+  } 
 }
 
 customElements.define('team-section', TeamSection);

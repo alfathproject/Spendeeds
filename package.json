@@ -8,7 +8,9 @@
     "start-dev": "webpack-dev-server --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "serve": "http-server dist",
-    "build-serve": "webpack --config webpack.prod.js && http-server dist"
+    "build-serve": "webpack --config webpack.prod.js && http-server dist",
+    "lint": "eslint src/scripts",
+    "lint-fix": "eslint src/scripts --fix"
   },
   "keywords": [],
   "author": "@icalbalino, @fatha_dillah, @mutiarasars, @ranggamyd",
