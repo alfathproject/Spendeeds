@@ -10,7 +10,7 @@ export default {
       <header-section class="container-fluid bg-primary py-5 mb-5 page-header d-block"></header-section>
     
       <!-- Acreditated Schools -->
-      <acreditated-schools class="container-xxl py-5"></acreditated-schools-section>`;
+      <acreditated-schools-section class="container-xxl py-5"></acreditated-schools-section>`;
   },
 
   async afterRender() {
@@ -21,7 +21,7 @@ export default {
     };
 
     const acreditatedSchools = await SchoolDbSource.allAcreditatedSchools();
-    const acreditatedSchoolsSection = document.querySelector('acreditated-schools');
+    const acreditatedSchoolsSection = document.querySelector('acreditated-schools-section');
     acreditatedSchoolsSection.schools = acreditatedSchools;
   },
 };
