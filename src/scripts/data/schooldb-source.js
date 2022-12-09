@@ -1,5 +1,6 @@
 // import API_ENDPOINT from '../globals/api-endpoint';
 import data from './data.json';
+import datacategories from './category-data.json';
 import datareviews from './reviews-data.json';
 import config from '../globals/config';
 
@@ -22,8 +23,13 @@ class SchoolDbSource {
     return data.filter((school) => Number(school.npsn) === Number(npsn));
   }
 
+  // category data
+  static async category() {
+    return datacategories;
+  }
+
   static async categorized(category) {
-    return data.filter((school) => school.kecamatan.charAt(0).toLowerCase() === category);
+    return datacategories.filter((school) => school.kecamatan.charAt(0).toLowerCase() === category);
   }
 
   // random image review generator

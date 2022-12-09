@@ -25,8 +25,8 @@ const routes = {
   '/contact': Contact,
   '/popular': Popular,
   '/acreditated': Acreditated,
-  '/terms-and-conditions' : TermsAndConditions,
-  '/frequently-asked-questions' : faqs,
+  '/terms-and-conditions': TermsAndConditions,
+  '/frequently-asked-questions': faqs,
 };
 
 export default routes;

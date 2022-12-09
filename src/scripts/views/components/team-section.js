@@ -19,12 +19,12 @@ class TeamSection extends HTMLElement {
     this.afterRender();
   }
 
-  async afterRender(){
+  async afterRender() {
     const team = await teamSource.team();
     const teamList = document.querySelector('#team-list');
     const delayCounter = (i) => i + 0.2;
-    let i = 0.1;
-    team.forEach((member)=>{
+    const i = 0.1;
+    team.forEach((member) => {
       const teamItem = document.createElement('team-item');
       teamItem.team = member;
 
@@ -41,8 +41,8 @@ class TeamSection extends HTMLElement {
       delayCounter(i);
 
       teamList.appendChild(teamItem);
-    })
-  } 
+    });
+  }
 }
 
 customElements.define('team-section', TeamSection);

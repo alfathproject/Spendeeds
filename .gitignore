@@ -200,3 +200,5 @@ note.txt
 data copy.json
 dist
 package-lock.json
+test.js
+test2.js

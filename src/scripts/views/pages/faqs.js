@@ -10,7 +10,7 @@ export default {
 
       <!-- FAQs Start -->
       <faqs-section></faqs-section>
-      <!-- FAQs End -->`;  
+      <!-- FAQs End -->`;
   },
 
   async afterRender() {

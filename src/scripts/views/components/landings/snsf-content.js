@@ -1,10 +1,10 @@
 class LandingContent extends HTMLElement {
-    connectedCallback() {
-        this.render();
-    }
+  connectedCallback() {
+    this.render();
+  }
 
-    render() {
-        this.innerHTML = `
+  render() {
+    this.innerHTML = `
       <div class="mw-100 p-3 d-flex justify-content-center align-items-center text-dark">
           <div class="text-center w-75 p-3">
               <h1 class="fw-bold">Why School Is Important?</h1>
@@ -56,7 +56,7 @@ class LandingContent extends HTMLElement {
           </div>
       </div>
       `;
-    }
+  }
 }
 
-customElements.define("landing-content", LandingContent);
+customElements.define('landing-content', LandingContent);

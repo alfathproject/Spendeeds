@@ -10,7 +10,7 @@ export default {
 
       <!-- Terms And Condition Start -->
       <terms-conditions></terms-conditions>
-      <!-- Terms And Condition End -->`;  
+      <!-- Terms And Condition End -->`;
   },
 
   async afterRender() {

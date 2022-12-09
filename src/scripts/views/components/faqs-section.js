@@ -1,10 +1,10 @@
 class FaqsSection extends HTMLElement {
-    connectedCallback() {
-      this.render();
-    }
-  
-    render() {
-      this.innerHTML = `
+  connectedCallback() {
+    this.render();
+  }
+
+  render() {
+    this.innerHTML = `
         <div class="container">
             <div class="text-center wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
                 <h6 class="section-title bg-white text-center text-primary px-3">FAQs</h6>
@@ -49,7 +49,7 @@ class FaqsSection extends HTMLElement {
                 </div>
             </div>
         </div>`;
-    }
+  }
 }
-  
+
 customElements.define('faqs-section', FaqsSection);
