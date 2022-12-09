@@ -10,6 +10,8 @@ import About from '../views/pages/about';
 import Contact from '../views/pages/contact';
 import Popular from '../views/pages/popular';
 import Acreditated from '../views/pages/acreditated';
+import Akreditasi from '../views/pages/akreditasi';
+import Location from '../views/pages/location';
 import TermsAndConditions from '../views/pages/TermsAndConditions';
 import Faqs from '../views/pages/faqs';
 
@@ -27,6 +29,8 @@ const routes = {
   '/contact': Contact,
   '/popular': Popular,
   '/acreditated': Acreditated,
+  '/akreditasi/:id': Akreditasi,
+  '/location/:id': Location,
   '/terms-and-conditions': TermsAndConditions,
   '/frequently-asked-questions': Faqs,
 };
