@@ -31,13 +31,28 @@
 /*** Skip to Content ***/
 .skip-to-content {
   position: fixed;
-  top: -200px;
+  /* top: -200px; */
+  /* position: absolute; */
+  top: -50px;
+  left: 0;
+  text-decoration: none;
+  background-color: #F58A0F;
+  color: #181d38;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 12px 10px 10px;
+  z-index: 1025;
+  border-radius: 10px;
+  transition: all 0.3s ease;
 }
 
 .skip-to-content:focus {
-  left: 30px;
-  top: 80px;
-  z-index: 999;
+  /* left: 30px;
+  top: 80px; */
+  /* z-index: 999; */
+  top: 0;
+  outline: 5px solid #181d38;
+  border-radius: 10px;
 }
 
 

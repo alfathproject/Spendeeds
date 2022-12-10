@@ -1,4 +1,3 @@
-/* eslint-disable max-len */
 import _ from 'lodash';
 import data from './data.json';
 import datacategories from './category-data.json';
@@ -102,9 +101,7 @@ class SchoolDbSource {
   }
 
   static async categorized(category) {
-    return data.filter(
-      (school) => school.kecamatan.charAt(0).toLowerCase() === category,
-    );
+    return datacategories.filter((school) => school.kecamatan.charAt(0).toLowerCase() === category);
     // return datacategories.filter((school) => school.kecamatan.charAt(0).toLowerCase() === category);
   }
 

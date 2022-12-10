@@ -6,6 +6,7 @@ import '../components/acreditated-schools-section';
 import '../components/categorized-schools-section';
 import '../components/feedbacks-section';
 import SchoolDbSource from '../../data/schooldb-source';
+import CategoryDbSource from '../../data/categorydb-source';
 
 export default {
   render() {
@@ -44,13 +45,17 @@ export default {
     const AcreditatedSchoolsSection = document.querySelector('acreditated-schools-section');
     AcreditatedSchoolsSection.schools = acreditatedSchools;
 
-    const schools = await SchoolDbSource.schools();
+    const categories = await CategoryDbSource.categories();
     const CategoriesSection = document.querySelector('categories-section');
-    const categories = {
-      popularSchoolsNumber: popularSchools.length,
-      acreditatedSchoolsNumber: acreditatedSchools.length,
-      schools,
-    };
     CategoriesSection.categories = categories;
+
+    // const schools = await SchoolDbSource.schools();
+    // const CategoriesSection = document.querySelector('categories-section');
+    // const categories = {
+    //   popularSchoolsNumber: popularSchools.length,
+    //   acreditatedSchoolsNumber: acreditatedSchools.length,
+    //   schools,
+    // };
+    // CategoriesSection.categories = categories;
   },
 };

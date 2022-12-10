@@ -1,4 +1,3 @@
-/* eslint-disable no-restricted-globals */
 import { precacheAndRoute } from 'workbox-precaching';
 
 // Do precaching
