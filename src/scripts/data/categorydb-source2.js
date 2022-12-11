@@ -13,11 +13,10 @@ class CategoryDbSource {
     const school = _.map(schools, (item) => item.id_kategori.includes(category.id));
     return { category, school };
   }
-  
+
   static async categorized(category) {
     return datacategories.filter((school) => school.kecamatan.charAt(0).toLowerCase() === category);
   }
 }
-
 
 export default CategoryDbSource;
