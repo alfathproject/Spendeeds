@@ -15,11 +15,11 @@ class SchoolItem extends HTMLElement {
           <img class="img-fluid" src="./img/schools/school-1.jpg" alt="Gambar ${this._school.nama_sekolah}">
           <div class="w-100 d-flex justify-content-between position-absolute bottom-0 start-0 mb-4">
             <a href="/#/akreditasi/${this._school.akreditasi}" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;"><i class="bi bi-patch-check text-light me-2"></i>Akreditasi : ${this._school.akreditasi}</a>
-            <a href="/#/detail/${this._school.npsn}" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 30px 0 0 30px;">Read More</a>
+            <a href="/#/detail/${this._school.id}" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 30px 0 0 30px;">Read More</a>
           </div>
         </div>
         <div class="text-center p-4 pb-0">
-          <a href="/#/detail/${this._school.npsn}" class="h4 d-block mb-3 text-truncate" title="${this._school.nama_sekolah}">${this._school.nama_sekolah}</a>
+          <a href="/#/detail/${this._school.id}" class="h4 d-block mb-3 text-truncate" title="${this._school.nama_sekolah}">${this._school.nama_sekolah}</a>
           <div class="d-block mb-4"><i class="bi bi-geo-alt text-danger me-2"></i><a href="/#/location/${this._school.kelurahan}" class="h6">${this._school.kelurahan}</a>, <a href="/#/location/${this._school.kecamatan}" class="h6">${this._school.kecamatan}</a></div>
         </div>
         <div class="d-flex border-top">

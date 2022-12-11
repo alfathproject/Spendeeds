@@ -32,7 +32,8 @@ export default {
       query[key] = value;
     }
 
+    const schools = await SchoolDbSource.search(query);
     const ResultsSection = document.querySelector('results-section');
-    ResultsSection.schools = await SchoolDbSource.search(query);
+    ResultsSection.schools = schools;
   },
 };

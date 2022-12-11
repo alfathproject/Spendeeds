@@ -23,7 +23,7 @@ export default {
       page: 'Favorited',
     };
 
-    const favoritedSchools = await FavoriteSchoolIdb.schools();
+    const favoritedSchools = await FavoriteSchoolIdb.getAllSchools();
     const favoritedSchoolsSection = document.querySelector('favorited-schools-section');
     favoritedSchoolsSection.schools = favoritedSchools;
   },

@@ -27,7 +27,7 @@ export default {
       page: `Akreditasi ${url.id.toUpperCase()}`,
     };
 
-    const akreditasi = await SchoolDbSource.akreditasi(url.id.toLowerCase());
+    const akreditasi = await SchoolDbSource.akreditasi(url.id);
     const schoolList = document.querySelector('#akreditasiSchoolsList');
     schoolList.schools = akreditasi;
   },

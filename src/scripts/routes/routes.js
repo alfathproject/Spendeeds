@@ -19,20 +19,20 @@ const routes = {
   '/': Home, // default page
   '/home': Home,
   '/schools': Schools,
-  '/detail/:id': Detail,
-  '/search?:query': Search,
-  '/categories': Categories,
-  '/category/:id': Category,
-  '/favorites': Favorites,
-  '/feedbacks': Feedbacks,
-  '/about': About,
-  '/contact': Contact,
   '/popular': Popular,
   '/acreditated': Acreditated,
   '/akreditasi/:id': Akreditasi,
   '/location/:id': Location,
+  '/detail/:id': Detail,
+  '/favorites': Favorites,
+  '/about': About,
+  '/contact': Contact,
   '/terms-and-conditions': TermsAndConditions,
   '/frequently-asked-questions': Faqs,
+  '/search?:query': Search,
+  // '/categories': Categories,
+  // '/category/:id': Category,
+  // '/feedbacks': Feedbacks,
 };
 
 export default routes;

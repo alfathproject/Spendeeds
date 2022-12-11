@@ -15,7 +15,7 @@ class SchoolList extends HTMLElement {
     this.innerHTML = '';
 
     if (typeof this._schools !== 'undefined' && this._schools.length) {
-      this._schools.map((school, i) => {
+      this._schools.map((school) => {
         const schoolItem = document.createElement('school-item');
         schoolItem.school = school;
 
@@ -26,7 +26,7 @@ class SchoolList extends HTMLElement {
           'animate__animated',
           'animate__fadeInUp',
         );
-        schoolItem.setAttribute('data-wow-delay', `${(i + 10) / 30}s`);
+        schoolItem.setAttribute('data-wow-delay', '0.2s');
 
         this.appendChild(schoolItem);
       });

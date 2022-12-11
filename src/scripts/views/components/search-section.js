@@ -1,3 +1,6 @@
+/* eslint-disable no-unused-vars */
+import { createAlertTemplate } from '../templates/template-creator';
+
 class SearchSection extends HTMLElement {
   connectedCallback() {
     this.render();
@@ -80,15 +83,35 @@ class SearchSection extends HTMLElement {
         </div>
       </div>`;
 
+    let toggled = false;
+    if ($('#query').attr('disabled', false)) toggled = true;
+
+    $('#advancedSearchButton').on('click', () => {
+      $('#query').attr('disabled', !!toggled).val(null);
+      toggled = !toggled;
+    });
+
     $('#searchForm').on('submit', (e) => {
       e.preventDefault();
 
-      const form = document.forms[0];
+      const form = document.getElementById('searchForm');
       const formData = new FormData(form);
       const search = new URLSearchParams(formData);
       const queryString = search.toString();
 
-      window.location.href = `/#/search?${queryString}`;
+      let inputs = [];
+      for (const [key, value] of formData) { if (value && value !== 'All') inputs = inputs.push(value); }
+
+      if (inputs.length < 1) {
+        $('#query').trigger('focus');
+        createAlertTemplate.alert(
+          'warning',
+          'Oopss!',
+          "The Search field isn't filled yet!",
+        );
+      } else {
+        window.location.href = `/#/search?${queryString}`;
+      }
     });
   }
 }
