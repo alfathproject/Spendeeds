@@ -20,8 +20,8 @@ export default {
   async afterRender() {
     const headerSection = document.querySelector('header-section');
     headerSection.header = {
-      title: 'Search Schools',
-      page: 'search',
+      title: 'Cari Sekolah',
+      page: 'Cari',
     };
 
     const url = UrlParser.parseActiveUrlWithoutQuery();

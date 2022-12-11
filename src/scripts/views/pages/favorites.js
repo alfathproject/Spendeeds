@@ -19,8 +19,8 @@ export default {
   async afterRender() {
     const headerSection = document.querySelector('header-section');
     headerSection.header = {
-      title: 'Favorited Schools',
-      page: 'Favorited',
+      title: 'Sekolah Favorit',
+      page: 'Favorit',
     };
 
     const favoritedSchools = await FavoriteSchoolIdb.getAllSchools();

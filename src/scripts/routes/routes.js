@@ -30,9 +30,9 @@ const routes = {
   '/terms-and-conditions': TermsAndConditions,
   '/frequently-asked-questions': Faqs,
   '/search?:query': Search,
-  // '/categories': Categories,
-  // '/category/:id': Category,
-  // '/feedbacks': Feedbacks,
+  '/categories': Categories,
+  '/category/:id': Category,
+  '/feedbacks': Feedbacks,
 };
 
 export default routes;

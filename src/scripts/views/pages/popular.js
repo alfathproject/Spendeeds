@@ -16,8 +16,8 @@ export default {
   async afterRender() {
     const headerSection = document.querySelector('header-section');
     headerSection.header = {
-      title: 'Popular Schools',
-      page: 'Popular',
+      title: 'Sekolah Populer',
+      page: 'Populer',
     };
 
     const popularSchools = await SchoolDbSource.allPopularSchools();

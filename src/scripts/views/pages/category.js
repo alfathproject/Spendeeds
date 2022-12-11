@@ -4,6 +4,7 @@ import '../components/categorized-schools-section';
 import '../components/categorized-section';
 import SchoolDbSource from '../../data/schooldb-source';
 import UrlParser from '../../routes/url-parser';
+import CategoryDbSource from '../../data/categorydb-source2';
 
 export default {
   async render() {
@@ -23,11 +24,11 @@ export default {
     const url = UrlParser.parseActiveUrlWithoutCombiner();
 
     headerSection.header = {
-      title: `Category : ${url.id.toUpperCase()}`,
-      page: `Category ${url.id.toUpperCase()}`,
+      title: `Kategori : ${url.id.toUpperCase()}`,
+      page: `Kategori ${url.id.toUpperCase()}`,
     };
 
-    const categorized = await SchoolDbSource.categorized(url.id.toLowerCase());
+    const categorized = await CategoryDbSource.categorized(url.id.toLowerCase());
     const CategorizedSection = document.querySelector('categorized-section');
     CategorizedSection.schools = categorized;
   },

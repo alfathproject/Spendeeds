@@ -26,7 +26,7 @@ class HeadBar extends HTMLElement {
           <a href="/#/about" class="nav-item nav-link">Tentang</a>
           <a href="/#/contact" class="nav-item nav-link">Kontak Kami</a>
         </div>
-        <a href="/#/schools" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Explore Now<i class="bi bi-arrow-right ms-3"></i></a>
+        <a href="/#/schools" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Cari Sekarang<i class="bi bi-arrow-right ms-3"></i></a>
       </div>`;
   }
 }

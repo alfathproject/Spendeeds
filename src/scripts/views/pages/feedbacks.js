@@ -14,8 +14,8 @@ export default {
   async afterRender() {
     const headerSection = document.querySelector('header-section');
     headerSection.header = {
-      title: 'User Feedbacks',
-      page: 'Feedbacks',
+      title: 'Feedback Pengguna',
+      page: 'Feedback',
     };
   },
 };

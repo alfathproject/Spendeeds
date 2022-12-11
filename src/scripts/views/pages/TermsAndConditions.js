@@ -14,8 +14,8 @@ export default {
   async afterRender() {
     const headerSection = document.querySelector('header-section');
     headerSection.header = {
-      title: 'Terms and Conditions',
-      page: 'Terms and Conditions',
+      title: 'Syarat dan Ketentuan',
+      page: 'S&K',
     };
   },
 };
