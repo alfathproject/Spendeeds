@@ -10,7 +10,8 @@ import 'owl.carousel/dist/assets/owl.carousel.min.css';
 import 'owl.carousel';
 import CategoryDbSource from '../../data/categorydb-source';
 import SchoolDbSource from '../../data/schooldb-source';
-import TeamDbSource from '../../data/teamdb-source2';
+import TeamDbSource from '../../data/teamdb-source';
+import FeedbacksDbSource from '../../data/feedbackdb-source';
 
 export default {
   render() {
@@ -113,6 +114,10 @@ export default {
     const team = await TeamDbSource.team();
     const TeamSection = document.querySelector('team-section');
     TeamSection.team = team;
+
+    const feedbacks = await FeedbacksDbSource.feedbacks();
+    const feedbacksSection = document.querySelector('feedbacks-section');
+    feedbacksSection.feedbacks = feedbacks;
 
     // Testimonial carousel
     $('.testimonial-carousel').owlCarousel({

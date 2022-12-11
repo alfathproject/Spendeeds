@@ -1,0 +1,26 @@
+[
+  {
+    "id": 15,
+    "nama": "neymar",
+    "feedback": "kerjasama timnya sangat baik",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id": 31,
+    "nama": "aril",
+    "feedback": "lumayan bagus, namun fasilitas sekolah masih kurang memadai",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id": 51,
+    "nama": "yonatan",
+    "feedback": "lingkungannya membantu perkembangan siswa",
+    "tanggal": "2022/09/12"
+  },
+  {
+    "id": 76,
+    "nama": "samsudin",
+    "feedback": "kepasar beli semangka, selamat hari rabu",
+    "tanggal": "2022/09/12"
+  }
+]

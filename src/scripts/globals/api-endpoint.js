@@ -14,6 +14,7 @@ const API_ENDPOINT = {
   CATEGORIES: `${CONFIG.BASE_URL}/categories`,
   CATEGORY: (id) => `${CONFIG.BASE_URL}/categories/${id}`,
   TEAM: `${CONFIG.BASE_URL}/team`,
+  FEEDBACKS: `${CONFIG.BASE_URL}/feedbacks`,
 };
 
 export default API_ENDPOINT;

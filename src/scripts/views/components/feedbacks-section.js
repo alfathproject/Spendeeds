@@ -1,9 +1,14 @@
-import './feedback-item';
+import './feedback-list';
 import 'owl.carousel/dist/assets/owl.carousel.min.css';
 import 'owl.carousel';
 
 class FeedbacksSection extends HTMLElement {
-  connectedCallback() {
+  /**
+   * @param {any} schools
+   */
+  set feedbacks(feedbacks) {
+    this._feedbacks = feedbacks;
+
     this.render();
   }
 
@@ -14,14 +19,11 @@ class FeedbacksSection extends HTMLElement {
           <h6 class="section-title bg-white text-center text-primary px-3">Testimonial</h6>
           <h1 class="mb-5">User Feedbacks!</h1>
         </div>
-        <div class="owl-carousel testimonial-carousel position-relative">
-          <feedback-item class="testimonial-item text-center"></feedback-item>
-          <feedback-item class="testimonial-item text-center"></feedback-item>
-          <feedback-item class="testimonial-item text-center"></feedback-item>
-          <feedback-item class="testimonial-item text-center"></feedback-item>
-          <feedback-item class="testimonial-item text-center"></feedback-item>
-        </div>
+        <feedback-list class="owl-carousel testimonial-carousel position-relative"></feedback-list>
       </div>`;
+
+    const feedbackList = document.querySelector('feedback-list');
+    feedbackList.feedbacks = this._feedbacks;
   }
 }
 

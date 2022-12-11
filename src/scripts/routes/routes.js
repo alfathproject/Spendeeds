@@ -5,7 +5,6 @@ import Search from '../views/pages/search';
 import Categories from '../views/pages/categories';
 import Category from '../views/pages/category';
 import Favorites from '../views/pages/favorites';
-import Feedbacks from '../views/pages/feedbacks';
 import About from '../views/pages/about';
 import Contact from '../views/pages/contact';
 import Popular from '../views/pages/popular';
@@ -30,9 +29,8 @@ const routes = {
   '/terms-and-conditions': TermsAndConditions,
   '/frequently-asked-questions': Faqs,
   '/search?:query': Search,
-  // '/categories': Categories,
-  // '/category/:id': Category,
-  // '/feedbacks': Feedbacks,
+  '/categories': Categories,
+  '/category/:id': Category,
 };
 
 export default routes;
