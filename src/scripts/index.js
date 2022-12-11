@@ -7,7 +7,7 @@ import '../styles/style.css';
 import './views/components/head-bar';
 import './views/components/foot-bar';
 import App from './views/app';
-// import swRegister from './utils/sw-register';
+import swRegister from './utils/sw-register';
 
 const app = new App({ content: document.querySelector('#content') });
 
@@ -18,5 +18,5 @@ window.addEventListener('hashchange', () => {
 
 window.addEventListener('load', () => {
   app.renderPage();
-  // swRegister();
+  swRegister();
 });
