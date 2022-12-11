@@ -15,10 +15,9 @@ class ReviewItem extends HTMLElement {
     };
     const tanggal = review.tanggal.split('/');
 
-    console.log(tanggal[0]);
     this._tanggal = new Date(
       Number(tanggal[0]),
-      Number(tanggal[1]),
+      Number(tanggal[1] - 1),
       Number(tanggal[2]),
     ).toLocaleDateString('id-ID', options);
 
@@ -27,7 +26,7 @@ class ReviewItem extends HTMLElement {
 
   render() {
     this.innerHTML = `
-      <div class="card mt-3">
+      <div class="card">
         <div class="card-body">
           <blockquote class="blockquote mb-0">
             <p class="fs-5">${this._komentar}</p>

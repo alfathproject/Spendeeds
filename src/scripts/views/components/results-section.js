@@ -31,8 +31,9 @@ class ResultsSection extends HTMLElement {
       query[key] = value;
     }
 
-    if (query.npsn || query.schoolname || query.location || (query.akreditasi !== 'all')) $('#advancedSearchButton').trigger('click');
     $('#query').val(query.query);
+
+    if (query.npsn || query.schoolname || query.location || (query.akreditasi !== 'all')) $('#advancedSearchButton').trigger('click');
     $('#npsn').val(query.npsn);
     $('#schoolName').val(query.schoolname);
     $('#location').val(query.location);

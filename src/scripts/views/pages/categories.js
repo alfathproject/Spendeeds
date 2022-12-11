@@ -48,14 +48,5 @@ export default {
     const categories = await CategoryDbSource.categories();
     const CategoriesSection = document.querySelector('categories-section');
     CategoriesSection.categories = categories;
-
-    // const schools = await SchoolDbSource.schools();
-    // const CategoriesSection = document.querySelector('categories-section');
-    // const categories = {
-    //   popularSchoolsNumber: popularSchools.length,
-    //   acreditatedSchoolsNumber: acreditatedSchools.length,
-    //   schools,
-    // };
-    // CategoriesSection.categories = categories;
   },
 };

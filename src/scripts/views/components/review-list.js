@@ -15,17 +15,17 @@ class ReviewList extends HTMLElement {
     this.innerHTML = '';
 
     if (typeof this._reviews !== 'undefined' && this._reviews.length) {
-      this._reviews.map((review, i) => {
+      this._reviews.map((review) => {
         const reviewItem = document.createElement('review-item');
         reviewItem.review = review;
 
         reviewItem.classList.add(
-          'col',
+          'col-12',
           'wow',
           'animate__animated',
           'animate__fadeInUp',
         );
-        reviewItem.setAttribute('data-wow-delay', `${(i + 10) / 20}s`);
+        reviewItem.setAttribute('data-wow-delay', '0.3s');
 
         this.appendChild(reviewItem);
       });

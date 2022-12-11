@@ -1,120 +1,121 @@
-import _ from 'lodash';
-import data from './data.json';
-import datacategories from './category-data.json';
-import reviews from './review.json';
+/* eslint-disable no-dupe-else-if */
+import API_ENDPOINT from '../globals/api-endpoint';
 
 class SchoolDbSource {
   static async schools() {
-    return data.sort((a, b) => b.jumlah_siswa - a.jumlah_siswa);
+    const response = await fetch(API_ENDPOINT.SCHOOLS);
+    const responseJson = await response.json();
+    return responseJson.sort((a, b) => b.jumlah_siswa - a.jumlah_siswa);
   }
 
   static async popularSchools() {
-    const schools = await this.schools();
-    return schools.filter((school) => school.jumlah_siswa >= 200).slice(0, 3);
+    const response = await fetch(API_ENDPOINT.SCHOOLS);
+    const responseJson = await response.json();
+    return responseJson
+      .filter((school) => school.jumlah_siswa >= 200)
+      .sort((a, b) => b.jumlah_siswa - a.jumlah_siswa)
+      .slice(0, 3);
   }
 
   static async allPopularSchools() {
-    const schools = await this.schools();
-    return schools.filter((school) => school.jumlah_siswa >= 200);
+    const response = await fetch(API_ENDPOINT.SCHOOLS);
+    const responseJson = await response.json();
+    return responseJson
+      .filter((school) => school.jumlah_siswa >= 200)
+      .sort((a, b) => b.jumlah_siswa - a.jumlah_siswa);
   }
 
   static async acreditatedSchools() {
-    const schools = await this.schools();
-    return schools.filter((school) => school.akreditasi === 'A').slice(0, 6);
+    const response = await fetch(API_ENDPOINT.SCHOOLS);
+    const responseJson = await response.json();
+    return responseJson
+      .filter((school) => school.akreditasi === 'A')
+      .sort((a, b) => b.jumlah_siswa - a.jumlah_siswa)
+      .slice(0, 6);
   }
 
   static async allAcreditatedSchools() {
-    const schools = await this.schools();
-    return schools.filter((school) => school.akreditasi === 'A');
+    const response = await fetch(API_ENDPOINT.SCHOOLS);
+    const responseJson = await response.json();
+    return responseJson
+      .filter((school) => school.akreditasi === 'A')
+      .sort((a, b) => b.jumlah_siswa - a.jumlah_siswa);
   }
 
   static async akreditasi(akreditasi) {
-    return _.filter(data, (item) => (item.akreditasi
-      ? item.akreditasi.toString().toLowerCase() === akreditasi
-      : item.akreditasi));
+    const response = await fetch(
+      API_ENDPOINT.AKREDITASI(akreditasi.toUpperCase()),
+    );
+    const responseJson = await response.json();
+    return responseJson.sort((a, b) => b.jumlah_siswa - a.jumlah_siswa);
   }
 
   static async location(location) {
-    return data.filter(
-      (item) => (item.kecamatan
-        ? item.kecamatan.toString().toLowerCase() === location
-        : item.kecamatan)
-        || (item.kelurahan
-          ? item.kelurahan.toString().toLowerCase() === location
-          : item.kelurahan),
-    );
+    const response1 = await fetch(API_ENDPOINT.LOCATION1(location));
+    const response1Json = await response1.json();
+    const response2 = await fetch(API_ENDPOINT.LOCATION2(location));
+    const response2Json = await response2.json();
+    const mergedResponse = [...response1Json, ...response2Json];
+    return mergedResponse.sort((a, b) => b.jumlah_siswa - a.jumlah_siswa);
   }
 
-  static async detail(npsn) {
-    const school = data.filter((item) => Number(item.npsn) === Number(npsn));
-    const schoolReviews = reviews.filter(
-      (item) => Number(item.npsn) === Number(npsn),
-    );
-    return { school, schoolReviews };
+  static async school(id) {
+    const schoolResponse = await fetch(API_ENDPOINT.SCHOOL(id));
+    const schoolResponseJson = await schoolResponse.json();
+    const reviewsResponse = await fetch(API_ENDPOINT.REVIEWS(id));
+    const reviewsResponseJson = await reviewsResponse.json();
+    return { schoolResponseJson, reviewsResponseJson };
+  }
+
+  static async getResult(key, endpoint) {
+    let responseJson = [];
+    if (key && (key !== '') && (key !== 'all')) {
+      const response = await fetch(endpoint);
+      responseJson = await response.json();
+    }
+    return responseJson;
   }
 
   static async search(query) {
-    const keywords = query.query.length ? query.query : null;
-    const npsn = query.npsn.length ? query.npsn : null;
-    const schoolname = query.schoolname.length ? query.schoolname : null;
-    const location = query.location.length ? query.location : null;
-    const akreditasi = query.akreditasi !== 'all' ? query.akreditasi : null;
+    const resultByKeywords = await this.getResult(query.query, API_ENDPOINT.SEARCH(query.query));
+    const resultByNPSN = await this.getResult(query.npsn, API_ENDPOINT.SEARCHNPSN(query.npsn));
+    const resultBySchoolName = await this.getResult(query.schoolname, API_ENDPOINT.SEARCHSCHOOLNAME(query.schoolname));
+    const resultByLocation1 = await this.getResult(query.location, API_ENDPOINT.LOCATION1(query.location));
+    const resultByLocation2 = await this.getResult(query.location, API_ENDPOINT.LOCATION2(query.location));
+    const resultByLocation3 = await this.getResult(query.location, API_ENDPOINT.LOCATION3(query.location));
+    const resultByAkreditasi = await this.getResult(query.akreditasi.toUpperCase(), API_ENDPOINT.AKREDITASI(query.akreditasi.toUpperCase()));
 
-    return _.filter(
-      data,
-      (school) => (school.npsn
-        ? school.npsn.toString().includes(npsn || keywords)
-        : school.npsn)
-        || (school.nama_sekolah
-          ? school.nama_sekolah
-            .toString()
-            .toLowerCase()
-            .includes(schoolname || keywords)
-          : school.nama_sekolah)
-        || (school.alamat
-          ? school.alamat
-            .toString()
-            .toLowerCase()
-            .includes(location || keywords)
-          : school.alamat)
-        || (school.kelurahan
-          ? school.kelurahan
-            .toString()
-            .toLowerCase()
-            .includes(location || keywords)
-          : school.kelurahan)
-        || (school.kecamatan
-          ? school.kecamatan
-            .toString()
-            .toLowerCase()
-            .includes(location || keywords)
-          : school.kecamatan)
-        || (school.akreditasi
-          ? school.akreditasi.toString().toLowerCase().includes(akreditasi)
-          : school.akreditasi),
-    ).sort((a, b) => b.jumlah_siswa - a.jumlah_siswa);
+    const mergedResponse = [
+      ...resultByKeywords,
+      ...resultByNPSN,
+      ...resultBySchoolName,
+      ...resultByLocation1,
+      ...resultByLocation2,
+      ...resultByLocation3,
+      ...resultByAkreditasi,
+    ];
+
+    const finalResult = Array.from(
+      mergedResponse.reduce(
+        (entryMap, e) => entryMap.set(e.id, { ...entryMap.get(e.id) || {}, ...e }),
+        new Map(),
+      ).values(),
+    );
+
+    return finalResult.sort((a, b) => b.jumlah_siswa - a.jumlah_siswa);
   }
 
-  // category data
-  static async category() {
-    return datacategories;
-  }
+  static async addReview(review, schoolID) {
+    await fetch(API_ENDPOINT.REVIEWS(schoolID), {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(review),
+    });
 
-  static async categorized(category) {
-    return datacategories.filter((school) => school.kecamatan.charAt(0).toLowerCase() === category);
-    // return datacategories.filter((school) => school.kecamatan.charAt(0).toLowerCase() === category);
+    const response = await fetch(API_ENDPOINT.REVIEWS(schoolID));
+    const responseJson = response.json();
+    return responseJson;
   }
-
-  // random image review generator
-  // static async randomImageReview(id) {
-  //   const datareview = reviews.filter(
-  //     (review) => Number(review.id_review) === Number(id),
-  //   );
-  //   const random = Math.floor(Math.random() * 37);
-  //   const configimg = `../../public/categoryimg/cat-${random}.jpg`;
-  //   datareview.gambar = configimg;
-  //   return datareview;
-  // }
 }
 
 export default SchoolDbSource;

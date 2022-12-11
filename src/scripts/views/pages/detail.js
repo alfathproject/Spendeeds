@@ -31,34 +31,22 @@ export default {
     };
 
     const url = UrlParser.parseActiveUrlWithoutCombiner();
-    const detail = await SchoolDbSource.detail(url.id);
+    const { schoolResponseJson, reviewsResponseJson } = await SchoolDbSource.school(url.id);
 
     const detailSchoolSection = document.querySelector('detail-school-section');
-    detailSchoolSection.school = detail.school;
+    detailSchoolSection.school = schoolResponseJson;
 
     const schoolReviewsSection = document.querySelector('school-reviews-section');
-    schoolReviewsSection.reviews = detail.schoolReviews;
+    schoolReviewsSection.reviews = { reviews: reviewsResponseJson, schoolID: schoolResponseJson.id };
 
-    const schoolItem = Object.values(detail.school)[0];
-    const school = {
-      npsn: schoolItem.npsn,
-      nama_sekolah: schoolItem.nama_sekolah,
-      alamat: schoolItem.alamat,
-      kelurahan: schoolItem.kelurahan,
-      kecamatan: schoolItem.kecamatan,
-      jumlah_siswa: schoolItem.jumlah_siswa,
-      jumlah_guru: schoolItem.jumlah_guru,
-      kepala_sekolah: schoolItem.kepala_sekolah,
-      telp_sekolah: schoolItem.telp_sekolah,
-      akreditasi: schoolItem.akreditasi,
-      latitude: schoolItem.latitude,
-      longitude: schoolItem.longitude,
-    };
-
-    FavoriteButtonPresenter.init({
-      favoriteButtonContainer: document.querySelector('#favoriteButtonContainer'),
-      favoriteSchools: FavoriteSchoolIdb,
-      school,
-    });
+    if (!schoolResponseJson) {
+      detailSchoolSection.innerHTML = "Oops.. School isn't available";
+    } else {
+      FavoriteButtonPresenter.init({
+        favoriteButtonContainer: document.querySelector('#favoriteButtonContainer'),
+        favoriteSchools: FavoriteSchoolIdb,
+        school: schoolResponseJson,
+      });
+    }
   },
 };

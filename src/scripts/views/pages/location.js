@@ -27,9 +27,7 @@ export default {
       page: `${decodeURI(url.id.toUpperCase())}`,
     };
 
-    const location = await SchoolDbSource.location(
-      decodeURI(url.id.toLowerCase()),
-    );
+    const location = await SchoolDbSource.location(decodeURI(url.id));
     const schoolList = document.querySelector('#locationSchoolsList');
     schoolList.schools = location;
   },

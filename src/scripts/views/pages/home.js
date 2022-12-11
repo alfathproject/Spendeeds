@@ -10,7 +10,7 @@ import 'owl.carousel/dist/assets/owl.carousel.min.css';
 import 'owl.carousel';
 import CategoryDbSource from '../../data/categorydb-source';
 import SchoolDbSource from '../../data/schooldb-source';
-import TeamDbSource from '../../data/teamdb-source';
+import TeamDbSource from '../../data/teamdb-source2';
 
 export default {
   render() {
@@ -99,11 +99,15 @@ export default {
     CategoriesSection.categories = categories;
 
     const popularSchools = await SchoolDbSource.popularSchools();
-    const PopularSchoolsSection = document.querySelector('popular-schools-section');
+    const PopularSchoolsSection = document.querySelector(
+      'popular-schools-section',
+    );
     PopularSchoolsSection.schools = popularSchools;
 
     const acreditatedSchools = await SchoolDbSource.acreditatedSchools();
-    const AcreditatedSchoolsSection = document.querySelector('acreditated-schools-section');
+    const AcreditatedSchoolsSection = document.querySelector(
+      'acreditated-schools-section',
+    );
     AcreditatedSchoolsSection.schools = acreditatedSchools;
 
     const team = await TeamDbSource.team();

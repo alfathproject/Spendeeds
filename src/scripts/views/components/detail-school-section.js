@@ -4,7 +4,7 @@ class DetailSchoolSection extends HTMLElement {
    * @param {any} schools
    */
   set school(school) {
-    this._school = school[0];
+    this._school = school;
 
     this.render();
   }
