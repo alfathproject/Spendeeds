@@ -18,7 +18,7 @@ class SchoolReviewsSectioin extends HTMLElement {
       <div class="container-xxl pt-0 pb-5">
         <div class="container">
           <div class="text-center wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
-            <h6 class="section-title bg-white text-center text-primary px-3 mb-4">School Reviews</h6>
+            <h6 class="section-title bg-white text-center text-primary px-3 mb-4">Review Sekolah</h6>
           </div>
           <div class="row g-4">
             <div class="col wow animate__animated animate__fadeInUp" data-wow-delay="0.5s">
