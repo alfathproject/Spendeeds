@@ -20,7 +20,6 @@ class HeadBar extends HTMLElement {
               <a href="/#/schools" class="dropdown-item">Daftar Sekolah</a>
               <a href="/#/categories" class="dropdown-item">Kategori Sekolah</a>
               <a href="/#/favorites" class="dropdown-item">Sekolah Favorit</a>
-              <a href="/#/feedbacks" class="dropdown-item">Feedback Pengguna</a>
             </div>
           </div>
           <a href="/#/about" class="nav-item nav-link">Tentang</a>
