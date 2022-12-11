@@ -12,23 +12,23 @@ class FootBar extends HTMLElement {
             <img src="./img/spendeeds/logo/Spendeeds-Dark.png" alt="Logo Aplikasi" class="w-75">
           </div>
           <div class="col-lg-6 col-md-6">
-            <h4 class="text-white mb-3">Quick Link</h4>
+            <h4 class="text-white mb-3">Akses Cepat</h4>
             <div class ="row g-2">
               <div class="col-lg-6">
                 <a class="btn btn-link" href="/#/"><i class="bi bi-chevron-right me-2" style="font-size: .7rem;"></i>Home</a>
-                <a class="btn btn-link" href="/#/schools"><i class="bi bi-chevron-right me-2" style="font-size: .7rem;"></i>List of Schools</a>
-                <a class="btn btn-link" href="/#/categories"><i class="bi bi-chevron-right me-2" style="font-size: .7rem;"></i>School Categories</a>
-                <a class="btn btn-link" href="/#/favorites"><i class="bi bi-chevron-right me-2" style="font-size: .7rem;"></i>Favorited Schools</a>
+                <a class="btn btn-link" href="/#/schools"><i class="bi bi-chevron-right me-2" style="font-size: .7rem;"></i>Daftar Sekolah</a>
+                <a class="btn btn-link" href="/#/categories"><i class="bi bi-chevron-right me-2" style="font-size: .7rem;"></i>Kategori Sekolah</a>
+                <a class="btn btn-link" href="/#/favorites"><i class="bi bi-chevron-right me-2" style="font-size: .7rem;"></i>Sekolah Favorit</a>
               </div>
               <div class="col-lg-6">
-                <a class="btn btn-link" href="/#/feedbacks"><i class="bi bi-chevron-right me-2" style="font-size: .7rem;"></i>User Feedbacks</a>
-                <a class="btn btn-link" href="/#/about"><i class="bi bi-chevron-right me-2" style="font-size: .7rem;"></i>About</a>
-                <a class="btn btn-link" href="/#/contact"><i class="bi bi-chevron-right me-2" style="font-size: .7rem;"></i>Contact Us</a>
+                <a class="btn btn-link" href="/#/feedbacks"><i class="bi bi-chevron-right me-2" style="font-size: .7rem;"></i>Feedback Pengguna</a>
+                <a class="btn btn-link" href="/#/about"><i class="bi bi-chevron-right me-2" style="font-size: .7rem;"></i>Tentang</a>
+                <a class="btn btn-link" href="/#/contact"><i class="bi bi-chevron-right me-2" style="font-size: .7rem;"></i>Kontak Kami</a>
               </div>
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
-            <h4 class="text-white mb-3">Contact</h4>
+            <h4 class="text-white mb-3">Kontak</h4>
             <p class="mb-2"><i class="bi bi-geo-alt-fill me-3"></i>Jl Kemanggisan Ilir, DKI Jakarta</p>
             <p class="mb-2"><i class="bi bi-telephone-fill me-3"></i>0-21-530-7714</p>
             <p class="mb-2"><i class="bi bi-envelope-fill me-3"></i>email@gmail.com</p>

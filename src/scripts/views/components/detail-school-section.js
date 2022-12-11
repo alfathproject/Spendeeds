@@ -19,7 +19,7 @@ class DetailSchoolSection extends HTMLElement {
             </div>
           </div>
           <div class="col-lg-6 wow animate__animated animate__fadeInRight" data-wow-delay="0.3s">
-            <h6 class="section-title bg-white text-start text-primary pe-3">School Detail</h6>
+            <h6 class="section-title bg-white text-start text-primary pe-3">Detail Sekolah</h6>
             <h1 class="mb-3">${this._school.nama_sekolah || '-'}</h1>
             <p class="mb-3">
               <i class="bi bi-patch-check-fill text-primary me-2"></i>Akreditasi : ${this._school.akreditasi || '-'}
@@ -28,7 +28,7 @@ class DetailSchoolSection extends HTMLElement {
             </p>
             <p class="mb-4"><i class="bi bi-geo-alt-fill text-primary me-2"></i>${(this._school.kelurahan || this._school.kecamatan) ? `${this._school.kelurahan}, ${this._school.kecamatan}` : '-'}</p>
             <h5>Informasi Lengkap</h5>
-            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur deserunt molestiae ipsum, eos vel recusandae animi omnis maiores architecto possimus, quae placeat sint rem ad..</p>
+            <p class="mb-4">Sekolah Luar Biasa terletak di Jakarta yang memiliki Akreditasi A yang dapat memenuhi kebutuhan pelajar dengan disabilitas sesuai dengan kebutuhan siswanya.</p>
             <div class="row">
               <div class="col">
                 <div class="d-flex align-items-center mb-3">

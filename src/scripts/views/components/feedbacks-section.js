@@ -12,7 +12,7 @@ class FeedbacksSection extends HTMLElement {
       <div class="container">
         <div class="text-center">
           <h6 class="section-title bg-white text-center text-primary px-3">Testimonial</h6>
-          <h1 class="mb-5">User Feedbacks!</h1>
+          <h1 class="mb-5">Feedback Pengguna!</h1>
         </div>
         <div class="owl-carousel testimonial-carousel position-relative">
           <feedback-item class="testimonial-item text-center"></feedback-item>
