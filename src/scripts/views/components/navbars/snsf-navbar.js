@@ -11,9 +11,9 @@ class NavBar extends HTMLElement {
                     SN-SchoolFinder
                 </a>
                 <ul class="navbar-nav me-3 mb-3 mb-lg-0">
-                    <li class="nav-item"><a class="sn-home nav-link" href="">Home</a></li>
-                    <li class="nav-item"><a class="sn-schools nav-link" href="">List School</a></li>
-                    <li class="nav-item"><a class="sn-about nav-link" href="">About Us</a></li>
+                    <li class="nav-item"><a class="sn-home nav-link" href="">Beranda</a></li>
+                    <li class="nav-item"><a class="sn-schools nav-link" href="">Daftar Sekolah</a></li>
+                    <li class="nav-item"><a class="sn-about nav-link" href="">Tentang Kami</a></li>
                 </ul>
             </div>
         `;

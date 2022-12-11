@@ -16,8 +16,8 @@ export default {
   async afterRender() {
     const headerSection = document.querySelector('header-section');
     headerSection.header = {
-      title: 'Acreditated Schools',
-      page: 'Acreditated',
+      title: 'Sekolah Terakreditasi',
+      page: 'Akreditasi',
     };
 
     const acreditatedSchools = await SchoolDbSource.allAcreditatedSchools();

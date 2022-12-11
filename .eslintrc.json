@@ -21,6 +21,7 @@
     "no-prototype-builtins": "off",
     "no-consistent-return": "off",
     "consistent-return": "off",
-    "no-restricted-globals": "off"
+    "no-restricted-globals": "off",
+    "no-unused-vars": "off"
   }
 }

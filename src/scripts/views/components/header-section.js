@@ -21,8 +21,8 @@ class HeaderSection extends HTMLElement {
             <h1 class="display-3 text-white animate__animated animate__slideInDown">${this._title}</h1>
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb justify-content-center">
-                <li class="breadcrumb-item text-white"><a href="/#/" class="text-white">Home</a></li>
-                <li class="breadcrumb-item text-white">Pages</li>
+                <li class="breadcrumb-item text-white"><a href="/#/" class="text-white">Beranda</a></li>
+                <li class="breadcrumb-item text-white">Halaman</li>
                 <li class="breadcrumb-item text-white active" aria-current="page">${this._page}</li>
               </ol>
             </nav>

@@ -13,8 +13,8 @@ class CategorizedSchoolsSection extends HTMLElement {
     this.innerHTML = `
       <div class="container">
         <div class="text-center wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
-          <h6 class="section-title bg-white text-center text-primary px-3">Schools</h6>
-          <h1 class="mb-5">Categorized Schools By Kecamatan</h1>
+          <h6 class="section-title bg-white text-center text-primary px-3">Sekolah</h6>
+          <h1 class="mb-5">Kategori Sekolah berdasarkan Kecamatan</h1>
         </div>
         <div class="container-fluid">
           <div class="row justify-content-center text-center wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">

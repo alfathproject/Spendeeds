@@ -4,6 +4,7 @@ import '../components/categorized-schools-section';
 import '../components/categorized-section';
 import CategoryDbSource from '../../data/categorydb-source';
 import UrlParser from '../../routes/url-parser';
+import CategoryDbSource from '../../data/categorydb-source2';
 
 export default {
   async render() {
@@ -28,6 +29,7 @@ export default {
       page: `${category.kategori.toUpperCase()}`,
     };
 
+    const categorized = await CategoryDbSource.categorized(url.id.toLowerCase());
     const CategorizedSection = document.querySelector('categorized-section');
     CategorizedSection.schools = categorized;
   },

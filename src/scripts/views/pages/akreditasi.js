@@ -11,8 +11,8 @@ export default {
       <!-- Schools -->
       <div class="container">
         <div class="text-center wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
-          <h6 class="section-title bg-white text-center text-primary px-3">Acreditated</h6>
-          <h1 class="mb-5">Acreditated Schools</h1>
+          <h6 class="section-title bg-white text-center text-primary px-3">Akreditasi</h6>
+          <h1 class="mb-5">Sekolah Terakreditasi</h1>
         </div>
         <school-list id="akreditasiSchoolsList" class="row g-4 justify-content-center"></school-list>
       </div>`;

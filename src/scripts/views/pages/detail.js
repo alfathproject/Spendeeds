@@ -26,7 +26,7 @@ export default {
   async afterRender() {
     const headerSection = document.querySelector('header-section');
     headerSection.header = {
-      title: 'School Detail',
+      title: 'Detail Sekolah',
       page: 'Detail',
     };
 

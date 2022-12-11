@@ -14,8 +14,8 @@ class TeamSection extends HTMLElement {
     this.innerHTML = `
       <div class="container">
         <div class="text-center wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
-          <h6 class="section-title bg-white text-center text-primary px-3">Our Team</h6>
-          <h1 class="mb-5">Meet Our Team!</h1>
+          <h6 class="section-title bg-white text-center text-primary px-3">Tim Kami</h6>
+          <h1 class="mb-5">Kenal Lebih Dekat!</h1>
         </div>
         <team-list id="teamList" class="row g-4 justify-content-center"></team-list>
       </div>`;

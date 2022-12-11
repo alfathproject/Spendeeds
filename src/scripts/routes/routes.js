@@ -31,6 +31,7 @@ const routes = {
   '/search?:query': Search,
   '/categories': Categories,
   '/category/:id': Category,
+  '/feedbacks': Feedbacks,
 };
 
 export default routes;

@@ -33,8 +33,8 @@ export default {
   async afterRender() {
     const headerSection = document.querySelector('header-section');
     headerSection.header = {
-      title: 'School Categories',
-      page: 'Categories',
+      title: 'Kategori Sekolah',
+      page: 'kategori',
     };
 
     const popularSchools = await SchoolDbSource.popularSchools();

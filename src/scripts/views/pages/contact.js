@@ -10,19 +10,19 @@ export default {
       <div class="container-xxl py-5">
         <div class="container">
           <div class="text-center wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
-            <h6 class="section-title bg-white text-center text-primary px-3">Contact Us</h6>
-            <h1 class="mb-5">Contact For Any Query!</h1>
+            <h6 class="section-title bg-white text-center text-primary px-3">Kontak Kami</h6>
+            <h1 class="mb-5">Kami Siap Membantu!</h1>
           </div>
           <div class="row g-4">
             <div class="col-lg-4 col-md-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
-              <h5>Get In Touch</h5>
-              <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur deserunt molestiae ipsum, eos vel recusandae animi omnis maiores architecto possimus, quae placeat sint rem ad..</p>
+              <h5>Hubungi Kami</h5>
+              <p class="mb-4">Untuk mewujudkan pendidikan sesuai dengan kualitas yang diinginkan agar dapat menjaga semangat juang dan mimpi-mimpi peserta didik bisa terealisasikan dan bercahaya.</p>
               <div class="d-flex align-items-center mb-3">
                 <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary" style="width: 50px; height: 50px;">
                   <i class="bi bi-geo-alt-fill text-white"></i>
                 </div>
                 <div class="ms-3">
-                  <h5 class="text-primary">Office</h5>
+                  <h5 class="text-primary">Kantor</h5>
                   <p class="mb-0">Jl Kemanggisan Ilir, DKI Jakarta</p>
                 </div>
               </div>
@@ -31,7 +31,7 @@ export default {
                   <i class="bi bi-telephone-fill text-white"></i>
                 </div>
                 <div class="ms-3">
-                  <h5 class="text-primary">Mobile</h5>
+                  <h5 class="text-primary">Kontak</h5>
                   <p class="mb-0">0-21-530-7714</p>
                 </div>
               </div>
@@ -78,8 +78,8 @@ export default {
   async afterRender() {
     const headerSection = document.querySelector('header-section');
     headerSection.header = {
-      title: 'Contact Us',
-      page: 'Contact',
+      title: 'Kontak Kami',
+      page: 'Kontak',
     };
 
     document.querySelector('#feedbackForm').addEventListener('submit', (e) => {
