@@ -21,7 +21,6 @@ class FootBar extends HTMLElement {
                 <a class="btn btn-link" href="/#/favorites"><i class="bi bi-chevron-right me-2" style="font-size: .7rem;"></i>Sekolah Favorit</a>
               </div>
               <div class="col-lg-6">
-                <a class="btn btn-link" href="/#/feedbacks"><i class="bi bi-chevron-right me-2" style="font-size: .7rem;"></i>Feedback Pengguna</a>
                 <a class="btn btn-link" href="/#/about"><i class="bi bi-chevron-right me-2" style="font-size: .7rem;"></i>Tentang</a>
                 <a class="btn btn-link" href="/#/contact"><i class="bi bi-chevron-right me-2" style="font-size: .7rem;"></i>Kontak Kami</a>
               </div>
