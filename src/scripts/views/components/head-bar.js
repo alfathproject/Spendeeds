@@ -19,13 +19,13 @@ class HeadBar extends HTMLElement {
             <div class="dropdown-menu fade-down m-0">
               <a href="/#/schools" class="dropdown-item">Daftar Sekolah</a>
               <a href="/#/categories" class="dropdown-item">Kategori Sekolah</a>
-              <a href="/#/favorites" class="dropdown-item">Sekolah Favorit</a>
+              <a href="/#/favorites" class="dropdown-item">Favorit Sekolah</a>
             </div>
           </div>
           <a href="/#/about" class="nav-item nav-link">Tentang</a>
           <a href="/#/contact" class="nav-item nav-link">Kontak Kami</a>
         </div>
-        <a href="/#/schools" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Cari Sekarang<i class="bi bi-arrow-right ms-3"></i></a>
+        <a href="/#/schools" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Temukan Sekarang<i class="bi bi-arrow-right ms-3"></i></a>
       </div>`;
   }
 }

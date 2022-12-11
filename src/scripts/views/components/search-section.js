@@ -10,8 +10,8 @@ class SearchSection extends HTMLElement {
     this.innerHTML = `
       <div class="container">
         <div class="text-center wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
-          <h6 class="section-title bg-white text-center text-primary px-3">Cari</h6>
-          <h1 class="mb-5">Mencari Sekolah?</h1>
+          <h6 class="section-title bg-white text-center text-primary px-3">Mencari Sekolah?</h6>
+          <h1 class="mb-5">Tuliskan Pencarian Disini</h1>
         </div>
         <div class="row g-4 justify-content-center">
           <div class="col wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
@@ -22,7 +22,7 @@ class SearchSection extends HTMLElement {
             </div>
             <form action="/#/schools/search" method="GET" class="row g-3" id="searchForm">
               <div class="col-md-6 offset-md-2">
-                <input type="text" name="query" class="form-control form-control-lg wow animate__animated animate__fadeInLeft" id="query" placeholder="masukkan nama sekolah, lokasi, atau NPSN">
+                <input type="text" name="query" class="form-control form-control-lg wow animate__animated animate__fadeInLeft" id="query" placeholder="Masukkan nama sekolah, lokasi, atau NPSN">
                 <button class="btn btn-link float-end pe-0 wow animate__animated animate__fadeInUp" id="advancedSearchButton" type="button" data-bs-toggle="collapse" data-bs-target="#advancedSearch" aria-expanded="false" aria-controls="advancedSearch">Filter Pencarian</button>
                 <div class="collapse float-end rounded" id="advancedSearch">
                   <div class="card card-body">
@@ -36,13 +36,13 @@ class SearchSection extends HTMLElement {
                       <div class="col-md-4">
                         <div class="form-group mb-3">
                           <label for="schoolName">Nama Sekolah :</label>
-                          <input type="text" name="schoolName" class="form-control" id="schoolName" placeholder="School Name">
+                          <input type="text" name="schoolName" class="form-control" id="schoolName" placeholder="Nama Sekolah">
                         </div>
                       </div>
                       <div class="col-md-4">
                         <div class="form-group mb-3">
                           <label for="location">Lokasi :</label>
-                          <input type="text" name="location" class="form-control" id="location" placeholder="Location">
+                          <input type="text" name="location" class="form-control" id="location" placeholder="Lokasi">
                         </div>
                       </div>
                     </div>

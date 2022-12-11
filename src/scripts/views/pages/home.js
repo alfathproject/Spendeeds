@@ -25,7 +25,7 @@ export default {
               <div class="container">
                 <div class="row justify-content-start">
                   <div class="col-sm-10 col-lg-8">
-                    <h5 class="text-primary text-uppercase mb-3 animate__animated animate__slideInDown">Spendeeds Akan Membantu!</h5>
+                    <h5 class="text-primary text-uppercase mb-3 animate__animated animate__slideInDown">Spendeeds Memudahkan Anda!</h5>
                     <h1 class="display-3 text-white animate__animated animate__slideInDown">Jelajahi Sekolah Luar Biasa</h1>
                     <p class="fs-5 text-white mb-4 pb-2">Temukan Sekolah Luar Biasa bagi penyandang disabilitas sesuai yang kamu inginkan.</p>
                     <a href="#about" class="btn btn-light py-md-3 px-md-5 me-3 animate__animated animate__slideInLeft">Tentang</a>
@@ -41,7 +41,7 @@ export default {
               <div class="container">
                 <div class="row justify-content-start">
                   <div class="col-sm-10 col-lg-8">
-                    <h5 class="text-primary text-uppercase mb-3 animate__animated animate__slideInDown">SPENDEEDS AKAN MEMBANTUMU!</h5>
+                    <h5 class="text-primary text-uppercase mb-3 animate__animated animate__slideInDown">Spendeeds Memudahkan Anda!</h5>
                     <h1 class="display-3 text-white animate__animated animate__slideInDown">Memberikan Informasi Pendidikan
                     </h1>
                     <p class="fs-5 text-white mb-4 pb-2">Memberikan rekomendasi sekolah yang berkualitas bagi siswa berkebutuhan khusus.</p>

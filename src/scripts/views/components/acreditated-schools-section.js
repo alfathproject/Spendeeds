@@ -30,7 +30,7 @@ class AcreditatedSchoolsSection extends HTMLElement {
     const url = UrlParser.parseActiveUrlWithoutCombiner();
     if (url.resource !== 'acreditated') {
       morePopularButtonContainer.innerHTML = `
-        <a href="#/acreditated" class="btn btn-primary py-md-3 px-md-5 wow animate__animated animate__fadeInLeft" data-wow-delay="0.8s">More<i class="bi bi-arrow-right ms-3"></i></a>`;
+        <a href="#/acreditated" class="btn btn-primary py-md-3 px-md-5 wow animate__animated animate__fadeInLeft" data-wow-delay="0.8s">Lebih Banyak<i class="bi bi-arrow-right ms-3"></i></a>`;
     } else {
       morePopularButtonContainer.remove();
     }
