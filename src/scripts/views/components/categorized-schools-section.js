@@ -18,32 +18,32 @@ class CategorizedSchoolsSection extends HTMLElement {
         </div>
         <div class="container-fluid">
           <div class="row justify-content-center text-center wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
-            <div class="col"><a href="/#/category/A">a</a></div>
-            <div class="col"><a href="/#/category/B">b</a></div>
-            <div class="col"><a href="/#/category/C">c</a></div>
-            <div class="col"><a href="/#/category/D">d</a></div>
-            <div class="col"><a href="/#/category/E">e</a></div>
-            <div class="col"><a href="/#/category/F">f</a></div>
-            <div class="col"><a href="/#/category/G">g</a></div>
-            <div class="col"><a href="/#/category/H">h</a></div>
-            <div class="col"><a href="/#/category/I">i</a></div>
-            <div class="col"><a href="/#/category/J">j</a></div>
-            <div class="col"><a href="/#/category/K">k</a></div>
-            <div class="col"><a href="/#/category/L">l</a></div>
-            <div class="col"><a href="/#/category/M">m</a></div>
-            <div class="col"><a href="/#/category/N">n</a></div>
-            <div class="col"><a href="/#/category/O">o</a></div>
-            <div class="col"><a href="/#/category/P">p</a></div>
-            <div class="col"><a href="/#/category/Q">q</a></div>
-            <div class="col"><a href="/#/category/R">r</a></div>
-            <div class="col"><a href="/#/category/S">s</a></div>
-            <div class="col"><a href="/#/category/T">t</a></div>
-            <div class="col"><a href="/#/category/U">u</a></div>
-            <div class="col"><a href="/#/category/V">v</a></div>
-            <div class="col"><a href="/#/category/W">w</a></div>
-            <div class="col"><a href="/#/category/X">x</a></div>
-            <div class="col"><a href="/#/category/Y">y</a></div>
-            <div class="col"><a href="/#/category/Z">z</a></div>
+            <div class="col"><a href="/#/categorized/A">a</a></div>
+            <div class="col"><a href="/#/categorized/B">b</a></div>
+            <div class="col"><a href="/#/categorized/C">c</a></div>
+            <div class="col"><a href="/#/categorized/D">d</a></div>
+            <div class="col"><a href="/#/categorized/E">e</a></div>
+            <div class="col"><a href="/#/categorized/F">f</a></div>
+            <div class="col"><a href="/#/categorized/G">g</a></div>
+            <div class="col"><a href="/#/categorized/H">h</a></div>
+            <div class="col"><a href="/#/categorized/I">i</a></div>
+            <div class="col"><a href="/#/categorized/J">j</a></div>
+            <div class="col"><a href="/#/categorized/K">k</a></div>
+            <div class="col"><a href="/#/categorized/L">l</a></div>
+            <div class="col"><a href="/#/categorized/M">m</a></div>
+            <div class="col"><a href="/#/categorized/N">n</a></div>
+            <div class="col"><a href="/#/categorized/O">o</a></div>
+            <div class="col"><a href="/#/categorized/P">p</a></div>
+            <div class="col"><a href="/#/categorized/Q">q</a></div>
+            <div class="col"><a href="/#/categorized/R">r</a></div>
+            <div class="col"><a href="/#/categorized/S">s</a></div>
+            <div class="col"><a href="/#/categorized/T">t</a></div>
+            <div class="col"><a href="/#/categorized/U">u</a></div>
+            <div class="col"><a href="/#/categorized/V">v</a></div>
+            <div class="col"><a href="/#/categorized/W">w</a></div>
+            <div class="col"><a href="/#/categorized/X">x</a></div>
+            <div class="col"><a href="/#/categorized/Y">y</a></div>
+            <div class="col"><a href="/#/categorized/Z">z</a></div>
           </div>
         </div>
       </div>`;

@@ -22,14 +22,15 @@ export default {
   async afterRender() {
     const headerSection = document.querySelector('header-section');
     const url = UrlParser.parseActiveUrlWithoutCombiner();
-    const { category, categorizedSchool } = await CategoryDbSource.category(url.id);
+    const categorized = await CategoryDbSource.categorized(url.id.toLowerCase());
 
     headerSection.header = {
-      title: `${category.kategori.toUpperCase()}`,
-      page: `${category.kategori.toUpperCase()}`,
+      title: 'Sekolah per Kecamatan',
+      page: 'kecamatan',
     };
+    console.log(categorized);
 
     const CategorizedSection = document.querySelector('categorized-section');
-    CategorizedSection.schools = categorizedSchool;
+    CategorizedSection.schools = categorized;
   },
 };

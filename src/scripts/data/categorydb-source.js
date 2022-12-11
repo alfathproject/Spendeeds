@@ -1,3 +1,5 @@
+/* eslint-disable array-callback-return */
+import { isUndefined } from 'lodash';
 import API_ENDPOINT from '../globals/api-endpoint';
 
 class CategoryDbSource {
@@ -14,13 +16,24 @@ class CategoryDbSource {
     const schoolResponseJson = await schoolResponse.json();
 
     const filterByCategorys = [categoryResponseJson.id];
-
     const filterByCategorySet = new Set(filterByCategorys);
-
     const result = schoolResponseJson.filter((o) => o.id_kategori.some((c) => filterByCategorySet.has(c)));
-    console.log(result);
 
-    return { category: categoryResponseJson, categorized: result.sort((a, b) => b.jumlah_siswa - a.jumlah_siswa) };
+    return { category: categoryResponseJson, categorizedSchool: result.sort((a, b) => b.jumlah_siswa - a.jumlah_siswa) };
+  }
+
+  static async categorized(category) {
+    const response = await fetch(API_ENDPOINT.SCHOOLS);
+    const responseJson = await response.json();
+    const schools = responseJson.map((el) => {
+      if (el.kecamatan) return el;
+    });
+
+    const filtered = [];
+    schools.map((el) => {
+      if (el) if (el.kecamatan.charAt(0).toLowerCase() === category) filtered.push(el);
+    });
+    return filtered;
   }
 }
 

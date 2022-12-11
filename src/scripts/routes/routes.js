@@ -4,6 +4,7 @@ import Detail from '../views/pages/detail';
 import Search from '../views/pages/search';
 import Categories from '../views/pages/categories';
 import Category from '../views/pages/category';
+import Categorized from '../views/pages/categorized';
 import Favorites from '../views/pages/favorites';
 import About from '../views/pages/about';
 import Contact from '../views/pages/contact';
@@ -13,6 +14,7 @@ import Akreditasi from '../views/pages/akreditasi';
 import Location from '../views/pages/location';
 import TermsAndConditions from '../views/pages/TermsAndConditions';
 import Faqs from '../views/pages/faqs';
+import Feedbacks from '../views/pages/feedbacks';
 
 const routes = {
   '/': Home, // default page
@@ -31,6 +33,7 @@ const routes = {
   '/search?:query': Search,
   '/categories': Categories,
   '/category/:id': Category,
+  '/categorized/:id': Categorized,
   '/feedbacks': Feedbacks,
 };
 
